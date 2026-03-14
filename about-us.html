@@ -1,956 +1,1841 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="image/favicon.png">
+    <link rel="icon" href="image/favicon.png" />
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css" />
-    <link rel="stylesheet"
-        href="https://cdn.jsdelivr.net/gh/shishirraven/animate-on-scroll@v1.2/animation_utility.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/shishirraven/animate-on-scroll@v1.2/animation_utility.css"
+    />
     <title>Petopia - About Us</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <!-- Header -->
     <div class="r-container">
-        <div class="navbar navbar-expand-xl mx-4 m-xl-0">
-            <div class="logo-container">
-                <a href="#Logo" class="navbar-brand">
-                    <img src="image/Logo.png" alt="Logo Petopia" style="width: 180px; height: 90px;">
-                </a>
-            </div>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <i class="fa-solid fa-bars-staggered"></i>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav mx-auto mb-2 mb-lg-0 gap-4">
-                    <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
-                    <li class="nav-item"><a href="about-us.html" class="nav-link active">About Us</a></li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#Services" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">Services</a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="services.html">Services</a></li>
-                            <li><a class="dropdown-item" href="services-detail.html">Services Detail</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">Pages</a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="team.html">Team</a></li>
-                            <li><a class="dropdown-item" href="gallery.html">Gallery</a></li>
-                            <li><a class="dropdown-item" href="pricing-plan.html">Pricing Plan</a></li>
-                            <li><a class="dropdown-item" href="faqs.html">FAQs</a></li>
-                            <li><a class="dropdown-item" href="404.html">404 Page</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#Blogs" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">Blogs</a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="blog.html">News & Blog</a></li>
-                            <li><a class="dropdown-item" href="single-post.html">Single Post</a></li>
-                        </ul>
-                    </li>
-                </ul>
-                <div class="w-max-content d-flex flex-row align-items-center m-xl-0 mt-3 mx-auto">
-                    <a class="btn btn-accent d-flex flex-row gap-3 rounded-5" href="contact-us.html">
-                        <span>Contact Us</span>
-                        <i
-                            class="rtmicon rtmicon-chevron-right rounded-circle bg-accent-primary p-2 fw-bold accent-color"></i>
-                    </a>
-                </div>
-            </div>
-
+      <div class="navbar navbar-expand-xl mx-4 m-xl-0">
+        <div class="logo-container">
+          <a href="#Logo" class="navbar-brand">
+            <img
+              src="image/Logo.png"
+              alt="Logo Petopia"
+              style="width: 180px; height: 90px"
+            />
+          </a>
         </div>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fa-solid fa-bars-staggered"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0 gap-4">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="about-us.html" class="nav-link active">About Us</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#Services"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                >Services</a
+              >
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="services.html">Services</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="services-detail.html"
+                    >Services Detail</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                >Pages</a
+              >
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="team.html">Team</a></li>
+                <li>
+                  <a class="dropdown-item" href="gallery.html">Gallery</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="pricing-plan.html"
+                    >Pricing Plan</a
+                  >
+                </li>
+                <li><a class="dropdown-item" href="faqs.html">FAQs</a></li>
+                <li><a class="dropdown-item" href="404.html">404 Page</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#Blogs"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                >Blogs</a
+              >
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="blog.html">News & Blog</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="single-post.html"
+                    >Single Post</a
+                  >
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <div
+            class="w-max-content d-flex flex-row align-items-center m-xl-0 mt-3 mx-auto"
+          >
+            <a
+              class="btn btn-accent d-flex flex-row gap-3 rounded-5"
+              href="contact-us.html"
+            >
+              <span>Contact Us</span>
+              <i
+                class="rtmicon rtmicon-chevron-right rounded-circle bg-accent-primary p-2 fw-bold accent-color"
+              ></i>
+            </a>
+          </div>
+        </div>
+      </div>
     </div>
     <!-- End Header -->
 
     <!-- Main -->
 
     <main>
-        <!-- Banner -->
-        <div class="section">
-            <div class="r-container bg-attach-cover" style="background-image: url(image/bg-banner-about-us.png)">
-                <div class="row row-cols-xl-2 row-cols-1 align-items-center">
-                    <div class="col mb-3">
-                        <div class="d-flex flex-column gap-3 justify-content-center">
-                            <h2 class="scrollanimation animated fadeInUp adr-9">Our Passion for Pet Health and
-                                Grooming</h2>
-                            <p class="scrollanimation animated fadeInDown adr-9 adl-3">Home > <span
-                                    class="accent-color">About
-                                    Us</span></p>
-                        </div>
-                    </div>
-                    <div class="col mb-3">
-                        <div class="position-relative">
-                            <img class="img-fluid rounded-5" src="image/dummy-img-1920x1280.jpg" alt="" />
-                            <div class="bg-accent-primary position-absolute p-4 pe-0 rounded-top-5 rounded-end-0 bottom-0 end-0"
-                                style="width: 50%;">
-                                <p class="m-0 scrollanimation animated zoomIn adr-9 adl-5">
-                                    We’re dedicated to keeping your furry friends healthy, happy,
-                                    and looking their best.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+      <!-- Banner -->
+      <div class="section">
+        <div
+          class="r-container bg-attach-cover"
+          style="background-image: url(image/bg-banner-about-us.png)"
+        >
+          <div class="row row-cols-xl-2 row-cols-1 align-items-center">
+            <div class="col mb-3">
+              <div class="d-flex flex-column gap-3 justify-content-center">
+                <h2 class="scrollanimation animated fadeInUp adr-9">
+                  Our Passion for Pet Health and Grooming
+                </h2>
+                <p class="scrollanimation animated fadeInDown adr-9 adl-3">
+                  Home > <span class="accent-color">About Us</span>
+                </p>
+              </div>
             </div>
-        </div>
-
-        <!-- Section Marquee -->
-        <div class="section p-0">
-            <div
-                class="d-flex flex-column gap-3 text-center align-items-center justify-content-center mx-auto position-relative accent-primary">
-                <div class="marquee-container bg-accent-color">
-                    <div class="marquee-content green-neon">
-                        <div class="marquee-item py-2 d-flex align-items-center justify-content-center">
-                            <h3 class="m-0">Ensuring Quality Care For You Pet.</h3>
-                        </div>
-                        <div class="marquee-item py-2 d-flex align-items-center">
-                            <img src="image/star-of-life-black.png" class="img-fluid" alt="">
-                        </div>
-                        <div class="marquee-item py-2 d-flex align-items-center justify-content-center">
-                            <h3 class="m-0">Dedicated to Animal Health.</h3>
-                        </div>
-                        <div class="marquee-item py-2 d-flex align-items-center">
-                            <img src="image/star-of-life-black.png" class="img-fluid" alt="">
-                        </div>
-                        <div class="marquee-item py-2 d-flex align-items-center justify-content-center">
-                            <h3 class="m-0">Grooming with Love and Expertise.</h3>
-                        </div>
-                        <div class="marquee-item py-2 d-flex align-items-center">
-                            <img src="image/star-of-life-black.png" class="img-fluid" alt="">
-                        </div>
-                        <div class="marquee-item py-2 d-flex align-items-center justify-content-center">
-                            <h3 class="m-0">Certification You Can Trust</h3>
-                        </div>
-                        <div class="marquee-item py-2 d-flex align-items-center">
-                            <img src="image/star-of-life-black.png" class="img-fluid" alt="">
-                        </div>
-                    </div>
+            <div class="col mb-3">
+              <div class="position-relative">
+                <img class="img-fluid rounded-5" src="image/24.jpg" alt="" />
+                <div
+                  class="bg-accent-primary position-absolute p-4 pe-0 rounded-top-5 rounded-end-0 bottom-0 end-0"
+                  style="width: 50%"
+                >
+                  <p class="m-0 scrollanimation animated zoomIn adr-9 adl-5">
+                    We’re dedicated to keeping your furry friends healthy,
+                    happy, and looking their best.
+                  </p>
                 </div>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
 
-        <!-- About Us -->
-        <div class="section">
-            <div class="r-container">
-                <div class="row row-cols-xl-2 row-cols-1 justify-content-evenly
-                ">
-                    <div class="col col-xl-5 mb-3">
-                        <div class="d-flex flex-column gap-3">
-                            <div
-                                class="d-flex flex-row gap-2 align-items-center scrollanimation animated fadeInUp adr-9 adl-3">
-                                <img src="image/paw.png" alt="" />
-                                <h6 class="m-0">About Us</h6>
-                            </div>
-                            <h3 class="scrollanimation animated fadeInDown adr-9">Compassionate Care for Your
-                                Furry
-                                Family</h3>
-                            <div class="d-flex flex-column gap-2">
-                                <div class=" d-flex flex-row gap-2 accent-color align-items-center">
-                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                                        version="1.1" id="Icons" x="0px" y="0px" viewBox="0 0 24 24" width="41"
-                                        height="40" fill="CurrentColor" enable-background="new 0 0 24 24"
-                                        xml:space="preserve">
-                                        <g id="Pet-House">
-                                            <path
-                                                d="M21.664,10.252l-9-8c-0.379-0.337-0.949-0.337-1.328,0l-9,8c-0.413,0.367-0.45,0.999-0.083,1.412   c0.366,0.412,0.998,0.448,1.411,0.083l0.361-0.321V21c0,0.552,0.447,1,1,1h3.101v-3.197c0-2.136,1.738-3.875,3.874-3.875   s3.874,1.738,3.874,3.875V22h3.142c0.553,0,1-0.448,1-1v-9.537l0.32,0.285C20.526,11.917,20.764,12,21,12   c0.275,0,0.55-0.113,0.747-0.335C22.114,11.251,22.077,10.62,21.664,10.252z M16.425,13.558c-0.195,0.195-0.451,0.293-0.707,0.293   s-0.512-0.098-0.707-0.292l-1.095-1.094h-3.831l-1.095,1.094c-0.195,0.195-0.451,0.292-0.707,0.292s-0.512-0.098-0.707-0.293   c-0.391-0.391-0.391-1.024,0-1.415l0.678-0.677l-0.679-0.681c-0.39-0.391-0.389-1.024,0.002-1.414   C7.969,8.98,8.601,8.983,8.99,9.374l1.087,1.09h3.846l1.087-1.09c0.39-0.39,1.022-0.392,1.414-0.002   c0.391,0.39,0.392,1.023,0.002,1.414l-0.679,0.681l0.678,0.677C16.815,12.534,16.815,13.167,16.425,13.558z" />
-                                            <path
-                                                d="M12,16.929c-1.033,0-1.874,0.841-1.874,1.875V22h3.748v-3.197C13.874,17.77,13.033,16.929,12,16.929z" />
-                                        </g>
-                                    </svg>
-                                    <h4 class="m-0">Vision</h4>
-                                </div>
-                                <p class="ms-5">
-                                    To be the leading provider of compassionate, high-quality
-                                    veterinary care and grooming services, where pets and their
-                                    owners feel valued, cared for, and part of a loving community.
-                                </p>
-                                <div class="d-flex flex-row gap-2 accent-color align-items-center">
-                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                                        version="1.1" id="Icons" x="0px" y="0px" viewBox="0 0 24 24" width="41"
-                                        height="40" fill="CurrentColor" enable-background="new 0 0 24 24"
-                                        xml:space="preserve">
-                                        <g id="Pet-Shop">
-                                            <polygon points="14.028,2 9.968,2 8.795,5.979 15.204,5.979  " />
-                                            <path
-                                                d="M21.579,5.979l-2.037-3.484C19.363,2.188,19.034,2,18.679,2h-2.555l1.216,3.979H21.579z" />
-                                            <path
-                                                d="M7.874,2h-2.41C5.118,2,4.796,2.179,4.613,2.474l-2.17,3.506h4.217L7.874,2z" />
-                                            <path
-                                                d="M2.001,7.979L2,9.5c0,0-0.062,0.907,1,1h18.003c0.552,0,1-0.447,1-1l0-1.521H2.001z" />
-                                            <path
-                                                d="M3.709,21c0,0.552,0.448,1,1,1h14.582c0.552,0,1-0.448,1-1l0-8.5H3.709L3.709,21z M7.574,16.571   c-0.39-0.391-0.389-1.024,0.002-1.414c0.392-0.391,1.024-0.389,1.414,0.002l1.087,1.09h3.846l1.087-1.09   c0.389-0.391,1.022-0.393,1.414-0.002c0.391,0.39,0.392,1.023,0.002,1.414l-0.678,0.681l0.677,0.677   c0.391,0.391,0.391,1.023,0,1.414c-0.195,0.195-0.451,0.293-0.707,0.293s-0.512-0.098-0.707-0.293l-1.094-1.094h-3.834   l-1.094,1.094c-0.195,0.195-0.451,0.293-0.707,0.293s-0.512-0.098-0.707-0.293c-0.391-0.391-0.391-1.023,0-1.414l0.677-0.677   L7.574,16.571z" />
-                                        </g>
-                                    </svg>
-                                    <h4 class="m-0">Mission</h4>
-                                </div>
-                                <p class="ms-5">
-                                    Our mission is to deliver exceptional veterinary care and
-                                    grooming services through a combination of expertise,
-                                    compassion, and dedication.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col col-xl-5 mb-3">
-                        <div class="d-flex flex-column gap-3 mt-5 accent-color">
-                            <p style="width: 85%;">
-                                Our compassionate team is committed to providing the highest
-                                quality veterinary care and grooming services
-                            </p>
-                            <div class="row row-cols-2 border-bottom border-1 border-accent align-items-center">
-                                <div class="col">
-                                    <div class="d-flex align-items-center">
-                                        <h2 class="number" data-target="10" data-duration="1000">
-                                            0
-                                        </h2>
-                                        <h5>Th</h5>
-                                    </div>
-                                </div>
-                                <div class="col">
-                                    <p class="accent-color scrollanimation animated fadeInLeft adr-9 adl-4">Years
-                                        Experience
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="row row-cols-2 border-bottom border-1 border-accent align-items-center">
-                                <div class="col">
-                                    <div class="d-flex align-items-center">
-                                        <h2 class="number" data-target="25" data-duration="1000">
-                                            0
-                                        </h2>
-                                        <h5>+</h5>
-                                    </div>
-                                </div>
-                                <div class="col">
-                                    <p class="accent-color scrollanimation animated fadeInLeft adr-9 adl-5">Medic
-                                        Veteriner
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="row row-cols-2 border-bottom border-1 border-accent align-items-center">
-                                <div class="col">
-                                    <div class="d-flex align-items-center">
-                                        <h2 class="number" data-target="98" data-duration="1000">
-                                            0
-                                        </h2>
-                                        <h5>%</h5>
-                                    </div>
-                                </div>
-                                <div class="col">
-                                    <p class="accent-color scrollanimation animated fadeInLeft adr-9 adl-6">Happy
-                                        Clients
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="row row-cols-2 border-bottom border-1 border-accent align-items-center">
-                                <div class="col">
-                                    <div class="d-flex align-items-center">
-                                        <h2 class="number" data-target="1" data-duration="1000">1</h2>
-                                        <h2>.</h2>
-                                        <h2 class="number" data-target="5" data-duration="1000">5</h2>
-                                        <h2>k</h2>
-                                        <h5>+</h5>
-                                    </div>
-                                </div>
-                                <div class="col">
-                                    <p class="accent-color scrollanimation animated fadeInLeft adr-9 adl-7">Pets Treated
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+      <!-- Section Marquee -->
+      <div class="section p-0">
+        <div
+          class="d-flex flex-column gap-3 text-center align-items-center justify-content-center mx-auto position-relative accent-primary"
+        >
+          <div class="marquee-container bg-accent-color">
+            <div class="marquee-content green-neon">
+              <div
+                class="marquee-item py-2 d-flex align-items-center justify-content-center"
+              >
+                <h3 class="m-0">Ensuring Quality Care For You Pet.</h3>
+              </div>
+              <div class="marquee-item py-2 d-flex align-items-center">
+                <img
+                  src="image/star-of-life-black.png"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+              <div
+                class="marquee-item py-2 d-flex align-items-center justify-content-center"
+              >
+                <h3 class="m-0">Dedicated to Animal Health.</h3>
+              </div>
+              <div class="marquee-item py-2 d-flex align-items-center">
+                <img
+                  src="image/star-of-life-black.png"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+              <div
+                class="marquee-item py-2 d-flex align-items-center justify-content-center"
+              >
+                <h3 class="m-0">Grooming with Love and Expertise.</h3>
+              </div>
+              <div class="marquee-item py-2 d-flex align-items-center">
+                <img
+                  src="image/star-of-life-black.png"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+              <div
+                class="marquee-item py-2 d-flex align-items-center justify-content-center"
+              >
+                <h3 class="m-0">Certification You Can Trust</h3>
+              </div>
+              <div class="marquee-item py-2 d-flex align-items-center">
+                <img
+                  src="image/star-of-life-black.png"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
             </div>
+          </div>
         </div>
+      </div>
 
-        <!-- Section Gallery -->
-        <div class="section">
-            <div class="d-flex flex-column align-items-end">
-                <div class="swiper swiperImage w-100">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <div class="card">
-                                <div class="overflow-hidden rounded-5">
-                                    <a href="image/dummy-img-1920x1280.jpg" data-fslightbox="gallery"><img
-                                            src="image/dummy-img-1920x1280.jpg" alt="" class="img-fluid"
-                                            style="aspect-ratio: 3/2;" /></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="card">
-                                <div class="overflow-hidden rounded-5">
-                                    <a href="image/dummy-img-1920x1280.jpg" data-fslightbox="gallery"><img
-                                            src="image/dummy-img-1920x1280.jpg" alt="" class="img-fluid"
-                                            style="aspect-ratio: 1/1;" /></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="card">
-                                <div class="overflow-hidden rounded-5">
-                                    <a href="image/dummy-img-1920x1280.jpg" data-fslightbox="gallery"><img
-                                            src="image/dummy-img-1920x1280.jpg" alt="" class="img-fluid"
-                                            style="aspect-ratio: 3/2;" /></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="card">
-                                <div class="overflow-hidden rounded-5">
-                                    <a href="image/dummy-img-1920x1280.jpg" data-fslightbox="gallery"><img
-                                            src="image/dummy-img-1920x1280.jpg" alt="" class="img-fluid"
-                                            style="aspect-ratio: 1/1;" /></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="card">
-                                <div class="overflow-hidden rounded-5">
-                                    <a href="image/dummy-img-1920x1280.jpg" data-fslightbox="gallery"><img
-                                            src="image/dummy-img-1920x1280.jpg" alt="" class="img-fluid"
-                                            style="aspect-ratio: 3/2;" /></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="card">
-                                <div class="overflow-hidden rounded-5">
-                                    <a href="image/dummy-img-1920x1280.jpg" data-fslightbox="gallery"><img
-                                            src="image/dummy-img-1920x1280.jpg" alt="" class="img-fluid"
-                                            style="aspect-ratio: 1/1;" /></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="card">
-                                <div class="overflow-hidden rounded-5">
-                                    <a href="image/dummy-img-1920x1280.jpg" data-fslightbox="gallery"><img
-                                            src="image/dummy-img-1920x1280.jpg" alt="" class="img-fluid"
-                                            style="aspect-ratio: 3/2;" /></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="card">
-                                <div class="overflow-hidden rounded-5">
-                                    <a href="image/dummy-img-1920x1280.jpg" data-fslightbox="gallery"><img
-                                            src="image/dummy-img-1920x1280.jpg" alt="" class="img-fluid"
-                                            style="aspect-ratio: 1/1;" /></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Add arrows -->
-                    <div>
-                        <div class="swiper-button-next"></div>
-                        <div class="swiper-button-prev"></div>
-                    </div>
+      <!-- About Us -->
+      <div class="section">
+        <div class="r-container">
+          <div class="row row-cols-xl-2 row-cols-1 justify-content-evenly">
+            <div class="col col-xl-5 mb-3">
+              <div class="d-flex flex-column gap-3">
+                <div
+                  class="d-flex flex-row gap-2 align-items-center scrollanimation animated fadeInUp adr-9 adl-3"
+                >
+                  <img src="image/paw.png" alt="" />
+                  <h6 class="m-0">About Us</h6>
                 </div>
-                <div class="w-max-content float-button">
-                    <a class="btn btn-accent d-flex flex-row gap-3 rounded-5" href="gallery.html">
-                        <span>See All Photos</span>
-                        <i class="rtmicon rtmicon-chevron-right rounded-circle bg-white p-2 fw-bold accent-color"></i>
-                    </a>
+                <h3 class="scrollanimation animated fadeInDown adr-9">
+                  Compassionate Care for Your Furry Family
+                </h3>
+                <div class="d-flex flex-column gap-2">
+                  <div
+                    class="d-flex flex-row gap-2 accent-color align-items-center"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                      version="1.1"
+                      id="Icons"
+                      x="0px"
+                      y="0px"
+                      viewBox="0 0 24 24"
+                      width="41"
+                      height="40"
+                      fill="CurrentColor"
+                      enable-background="new 0 0 24 24"
+                      xml:space="preserve"
+                    >
+                      <g id="Pet-House">
+                        <path
+                          d="M21.664,10.252l-9-8c-0.379-0.337-0.949-0.337-1.328,0l-9,8c-0.413,0.367-0.45,0.999-0.083,1.412   c0.366,0.412,0.998,0.448,1.411,0.083l0.361-0.321V21c0,0.552,0.447,1,1,1h3.101v-3.197c0-2.136,1.738-3.875,3.874-3.875   s3.874,1.738,3.874,3.875V22h3.142c0.553,0,1-0.448,1-1v-9.537l0.32,0.285C20.526,11.917,20.764,12,21,12   c0.275,0,0.55-0.113,0.747-0.335C22.114,11.251,22.077,10.62,21.664,10.252z M16.425,13.558c-0.195,0.195-0.451,0.293-0.707,0.293   s-0.512-0.098-0.707-0.292l-1.095-1.094h-3.831l-1.095,1.094c-0.195,0.195-0.451,0.292-0.707,0.292s-0.512-0.098-0.707-0.293   c-0.391-0.391-0.391-1.024,0-1.415l0.678-0.677l-0.679-0.681c-0.39-0.391-0.389-1.024,0.002-1.414   C7.969,8.98,8.601,8.983,8.99,9.374l1.087,1.09h3.846l1.087-1.09c0.39-0.39,1.022-0.392,1.414-0.002   c0.391,0.39,0.392,1.023,0.002,1.414l-0.679,0.681l0.678,0.677C16.815,12.534,16.815,13.167,16.425,13.558z"
+                        />
+                        <path
+                          d="M12,16.929c-1.033,0-1.874,0.841-1.874,1.875V22h3.748v-3.197C13.874,17.77,13.033,16.929,12,16.929z"
+                        />
+                      </g>
+                    </svg>
+                    <h4 class="m-0">Vision</h4>
+                  </div>
+                  <p class="ms-5">
+                    To be the leading provider of compassionate, high-quality
+                    veterinary care and grooming services, where pets and their
+                    owners feel valued, cared for, and part of a loving
+                    community.
+                  </p>
+                  <div
+                    class="d-flex flex-row gap-2 accent-color align-items-center"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                      version="1.1"
+                      id="Icons"
+                      x="0px"
+                      y="0px"
+                      viewBox="0 0 24 24"
+                      width="41"
+                      height="40"
+                      fill="CurrentColor"
+                      enable-background="new 0 0 24 24"
+                      xml:space="preserve"
+                    >
+                      <g id="Pet-Shop">
+                        <polygon
+                          points="14.028,2 9.968,2 8.795,5.979 15.204,5.979  "
+                        />
+                        <path
+                          d="M21.579,5.979l-2.037-3.484C19.363,2.188,19.034,2,18.679,2h-2.555l1.216,3.979H21.579z"
+                        />
+                        <path
+                          d="M7.874,2h-2.41C5.118,2,4.796,2.179,4.613,2.474l-2.17,3.506h4.217L7.874,2z"
+                        />
+                        <path
+                          d="M2.001,7.979L2,9.5c0,0-0.062,0.907,1,1h18.003c0.552,0,1-0.447,1-1l0-1.521H2.001z"
+                        />
+                        <path
+                          d="M3.709,21c0,0.552,0.448,1,1,1h14.582c0.552,0,1-0.448,1-1l0-8.5H3.709L3.709,21z M7.574,16.571   c-0.39-0.391-0.389-1.024,0.002-1.414c0.392-0.391,1.024-0.389,1.414,0.002l1.087,1.09h3.846l1.087-1.09   c0.389-0.391,1.022-0.393,1.414-0.002c0.391,0.39,0.392,1.023,0.002,1.414l-0.678,0.681l0.677,0.677   c0.391,0.391,0.391,1.023,0,1.414c-0.195,0.195-0.451,0.293-0.707,0.293s-0.512-0.098-0.707-0.293l-1.094-1.094h-3.834   l-1.094,1.094c-0.195,0.195-0.451,0.293-0.707,0.293s-0.512-0.098-0.707-0.293c-0.391-0.391-0.391-1.023,0-1.414l0.677-0.677   L7.574,16.571z"
+                        />
+                      </g>
+                    </svg>
+                    <h4 class="m-0">Mission</h4>
+                  </div>
+                  <p class="ms-5">
+                    Our mission is to deliver exceptional veterinary care and
+                    grooming services through a combination of expertise,
+                    compassion, and dedication.
+                  </p>
                 </div>
+              </div>
             </div>
-        </div>
-
-        <!-- Section Certification -->
-        <div class="section">
-            <div class="r-container">
-                <div class="row row-cols-xl-2 row-cols-1 align-items-end">
-                    <div class="col mb-xl-0 mb-3">
-                        <div class="d-flex flex-column gap-3 justify-content-center">
-                            <div
-                                class="d-flex flex-row gap-2 align-items-center scrollanimation animated fadeInUp adr-9 adl-2">
-                                <img src="image/paw.png" alt="" />
-                                <h6 class="m-0">Trust Us</h6>
-                            </div>
-                            <h3 class="scrollanimation animated fadeInDown adr-9">Compassionate Care for Every
-                                Stage of Your Pet's Life</h3>
-                            <p style="max-width: 80%;">
-                                We provide compassionate care tailored to your pet’s unique
-                                needs at every stage of life, ensuring their health,
-                                happiness, and comfort.
-                            </p>
-                            <div class="d-flex flex-column gap-3">
-                                <div class="certified-name gap-3">
-                                    <img class="img-fluid" src=" image/39.png" alt="" />
-                                    <div class="ms-5 scrollanimation animated fadeInUp adr-9 adl-3">
-                                        <h5>Certified Veterinary Technician</h5>
-                                        <p class="m-0">January 15, 2024</p>
-                                    </div>
-                                </div>
-                                <div class="certified-name gap-3">
-                                    <img class="img-fluid" src="image/40.png" alt="" />
-                                    <div class="ms-5 scrollanimation animated fadeInUp adr-9 adl-4">
-                                        <h5>Certified Pet Grooming Specialist</h5>
-                                        <p class="m-0">March 22, 2023</p>
-                                    </div>
-                                </div>
-                                <div class="certified-name gap-3 border-0">
-                                    <img class="img-fluid" src="image/41.png" alt="" />
-                                    <div class="ms-5 scrollanimation animated fadeInUp adr-9 adl-5">
-                                        <h5>Veterinary Care Certification</h5>
-                                        <p class="m-0">September 5, 2023</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+            <div class="col col-xl-5 mb-3">
+              <div class="d-flex flex-column gap-3 mt-5 accent-color">
+                <p style="width: 85%">
+                  Our compassionate team is committed to providing the highest
+                  quality veterinary care and grooming services
+                </p>
+                <div
+                  class="row row-cols-2 border-bottom border-1 border-accent align-items-center"
+                >
+                  <div class="col">
+                    <div class="d-flex align-items-center">
+                      <h2 class="number" data-target="10" data-duration="1000">
+                        0
+                      </h2>
+                      <h5>Th</h5>
                     </div>
-                    <div class="col mb-xl-0 mb-3">
-                        <div class="d-flex align-items-center justify-content-center">
-                            <img class="img-fluid w-100" src="image/dummy-img-600x700.jpg" alt="" />
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Section Marquee -->
-        <div class="section p-0">
-            <div
-                class="d-flex flex-column gap-3 text-center align-items-center justify-content-center mx-auto position-relative accent-primary">
-                <div class="marquee-container bg-accent-color-4">
-                    <div class="marquee-content green-neon">
-                        <div class="marquee-item-2 py-2 d-flex align-items-center justify-content-center">
-                            <h3 class="m-0">Hear From Our Happy Pet Owners.</h3>
-                        </div>
-                        <div class="marquee-item-2 py-2 d-flex align-items-center">
-                            <img src="image/star-of-life-black.png" class="img-fluid" alt="">
-                        </div>
-                        <div class="marquee-item-2 py-2 d-flex align-items-center justify-content-center">
-                            <h3 class="m-0">Trust Us to Keep Your Pets Healthy and Happy.</h3>
-                        </div>
-                        <div class="marquee-item-2 py-2 d-flex align-items-center">
-                            <img src="image/star-of-life-black.png" class="img-fluid" alt="">
-                        </div>
-                        <div class="marquee-item-2 py-2 d-flex align-items-center justify-content-center">
-                            <h3 class="m-0">Appreciate About Our Personalized Care.</h3>
-                        </div>
-                        <div class="marquee-item-2 py-2 d-flex align-items-center">
-                            <img src="image/star-of-life-black.png" class="img-fluid" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Section Team -->
-        <div class="section">
-            <div class="r-container">
-                <div class="d-flex flex-column align-items-center justify-content-center gap-3">
-                    <div class="d-flex flex-column justify-content-center align-items-center gap-3 text-center mx-auto mb-4"
-                        style="max-width: 600px">
-                        <div class="d-flex flex-row gap-2 align-items-center scrollanimation animated fadeInUp adr-9">
-                            <img src="image/paw.png" alt="" />
-                            <h6 class="m-0">Pet Care Expert</h6>
-                        </div>
-                        <h3 class="text-center scrollanimation animated zoomIn adr-9 adl-2">Your Pet’s Health in Trusted
-                            Hands</h3>
-                        <p class="text-center w-75">
-                            With years of experience, a deep passion for animals, and a
-                            commitment to excellence
-                        </p>
-                    </div>
-
-                    <!-- Tab Navigation -->
-                    <div class="d-flex flex-row align-items-center gap-3 justify-content-xl-between">
-                        <div id="team-tab" class="tab-container">
-                            <div class="tab active rounded-pill" data-team="all">All</div>
-                            <div class="tab rounded-pill" data-team="medic">
-                                Medic Veteriner</div>
-                            <div class="tab rounded-pill" data-team="pet">
-                                Pet Groomer</div>
-                        </div>
-                    </div>
-
-                    <!-- Team Cards -->
-                    <div class="class-container">
-                        <div class="class-team scrollanimation animated fadeInLeft adr-9 adl-9" data-teams="all,medic">
-                            <div class="d-flex flex-column gap-3">
-                                <div class="position-relative d-flex flex-column align-items-center">
-                                    <img class="img-fluid rounded-5" src="image/dummy-img-600x700.jpg" alt=""
-                                        style="aspect-ratio: 5/6" />
-                                    <div
-                                        class="bg-accent-color-2 p-3 pb-2 position-absolute rounded-top-5 bottom-0 social-container">
-                                        <a class="social-item-2" href="https://www.facebook.com"><i
-                                                class="fa-brands fa-facebook"></i></a>
-                                        <a class="social-item-2" href="https://www.instagram.com"><i
-                                                class="fa-brands fa-instagram"></i></a>
-                                        <a class="social-item-2" href="https://www.twitter.com"><i
-                                                class="fa-brands fa-xs fa-twitter"></i></a>
-                                        <a class="social-item-2" href="https://www.youtube.com"><i
-                                                class="fa-brands fa-youtube"></i></a>
-                                    </div>
-                                </div>
-                                <div class="d-flex flex-column gap-2 align-items-center">
-                                    <h4 class="m-0">Dr. Mark Thompson</h4>
-                                    <p>Senior Veterinarian</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="class-team scrollanimation animated fadeInLeft adr-9 adl-6" data-teams="all,pet">
-                            <div class="d-flex flex-column gap-3">
-                                <div class="position-relative d-flex flex-column align-items-center">
-                                    <img class="img-fluid rounded-5" src="image/dummy-img-600x700.jpg" alt=""
-                                        style="aspect-ratio: 5/6" />
-                                    <div
-                                        class="bg-accent-color-2 p-3 pb-2 position-absolute rounded-top-5 bottom-0 social-container">
-                                        <a class="social-item-2" href="https://www.facebook.com"><i
-                                                class="fa-brands fa-facebook"></i></a>
-                                        <a class="social-item-2" href="https://www.instagram.com"><i
-                                                class="fa-brands fa-instagram"></i></a>
-                                        <a class="social-item-2" href="https://www.twitter.com"><i
-                                                class="fa-brands fa-xs fa-twitter"></i></a>
-                                        <a class="social-item-2" href="https://www.youtube.com"><i
-                                                class="fa-brands fa-youtube"></i></a>
-                                    </div>
-                                </div>
-                                <div class="d-flex flex-column gap-2 align-items-center">
-                                    <h4 class="m-0">Laura Smith</h4>
-                                    <p>Lead Groomer</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="class-team scrollanimation animated fadeInLeft adr-9 adl-3" data-teams="all,medic">
-                            <div class="d-flex flex-column gap-3">
-                                <div class="position-relative d-flex flex-column align-items-center">
-                                    <img class="img-fluid rounded-5" src="image/dummy-img-600x700.jpg" alt=""
-                                        style="aspect-ratio: 5/6" />
-                                    <div
-                                        class="bg-accent-color-2 p-3 pb-2 position-absolute rounded-top-5 bottom-0 social-container">
-                                        <a class="social-item-2" href="https://www.facebook.com"><i
-                                                class="fa-brands fa-facebook"></i></a>
-                                        <a class="social-item-2" href="https://www.instagram.com"><i
-                                                class="fa-brands fa-instagram"></i></a>
-                                        <a class="social-item-2" href="https://www.twitter.com"><i
-                                                class="fa-brands fa-xs fa-twitter"></i></a>
-                                        <a class="social-item-2" href="https://www.youtube.com"><i
-                                                class="fa-brands fa-youtube"></i></a>
-                                    </div>
-                                </div>
-                                <div class="d-flex flex-column gap-2 align-items-center">
-                                    <h4 class="m-0">Dr. Daniel Evans</h4>
-                                    <p>Veterinary Surgeon</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="w-max-content">
-                        <a class="btn btn-accent d-flex flex-row gap-3 rounded-5" href="team.html">
-                            <span>All Team</span>
-                            <i
-                                class="rtmicon rtmicon-chevron-right rounded-circle bg-white p-2 fw-bold accent-color"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Section CTA -->
-        <div class="section overflow-visible mt-xl-5" style="margin-bottom: -6.5 rem; z-index: 2">
-            <div class="r-container position-relative bg-accent-color-5 rounded-5 bg-attach-cover"
-                style="background-image: url(image/bg-cta.png)">
-                <div class="d-flex flex-xl-row flex-column-reverse align-items-center">
-                    <div class="col col-xl-5">
-                        <div class="float-img">
-                            <img class="img-fluid" src="image/dummy-img-450x600.jpg" alt="" />
-                        </div>
-                    </div>
-                    <div class="col col-xl-7">
-                        <div class="d-flex flex-column justify-content-center gap-4 pt-5 p-xl-5 mx-auto m-xl-0"
-                            style="max-width: 80%;">
-                            <div
-                                class="d-flex flex-row gap-2 align-items-center scrollanimation animated fadeInUp adr-9 adl-3">
-                                <img src="image/paw.png" alt="" />
-                                <h6 class="m-0">The Best Care</h6>
-                            </div>
-                            <h3 class="scrollanimation animated fadeInDown adr-9">New Client? Get 10% Off Your First
-                                Visit!</h3>
-                            <p>
-                                New here? Enjoy 10% off your first visit—because your pet
-                                deserves the best care right from the start!
-                            </p>
-                            <div class="d-flex flex-row gap-2 align-items-center mb-3">
-                                <div class="w-max-content">
-                                    <a class="btn btn-accent-2 d-flex flex-row gap-3 rounded-5" href="">
-                                        <span class="accent-color">Make Appointment</span>
-                                        <i
-                                            class="rtmicon rtmicon-chevron-right rounded-circle bg-accent-color p-2 fw-bold accent-color-primary"></i>
-                                    </a>
-                                </div>
-                                <button type="button" class="request-loader" data-bs-toggle="modal"
-                                    data-bs-target="#e119">
-                                    <i class="fa-solid fa-play ms-1"></i>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Section Veterinary Service -->
-        <div class="section">
-            <div class="r-container d-flex flex-column align-items-center">
-                <div class="d-flex flex-column justify-content-center align-items-center gap-3 text-center mx-auto mb-4"
-                    style="max-width: 658px">
-                    <div
-                        class="d-flex flex-row gap-2 align-items-center justify-content-center scrollanimation animated fadeInUp adr-9">
-                        <img src="image/paw.png" alt="" />
-                        <h6 class="m-0">Pet's Health</h6>
-                    </div>
-                    <h3 class="text-center scrollanimation animated zoomIn adr-9 adl-3">
-                        Expert Care for Every Stage of Your Pet’s Life
-                    </h3>
-                    <p class="text-center" style="max-width: 80%;">
-                        From puppies to seniors, we provide specialized care at every
-                        stage, ensuring your pet’s health and happiness throughout their
-                        life.
+                  </div>
+                  <div class="col">
+                    <p
+                      class="accent-color scrollanimation animated fadeInLeft adr-9 adl-4"
+                    >
+                      Years Experience
                     </p>
+                  </div>
                 </div>
-                <div class="row row-cols-xl-3 row-cols-1">
-                    <div class="col mb-3 scrollanimation animated fadeInRight adr-9 adl-3" style="margin-top: 5%">
-                        <div class="d-flex flex-column align-items-center gap-3">
-                            <div class="d-flex flex-column gap-3 card-service">
-                                <div class="d-flex flex-column gap-2">
-                                    <h4 class="accent-color">Wellness Check-ups</h4>
-                                    <p>
-                                        Monitor your pet’s health, prevent diseases, and keep them
-                                        in top shape.
-                                    </p>
-                                </div>
-                                <div class="position-relative">
-                                    <img class="img-fluid" src="image/dummy-img-1920x1280.jpg" alt=""
-                                        style="border-radius: 30px" />
-                                    <div class="position-absolute icon-box-2" style="top: -20px; right: 40px">
-                                        <i class="rtmicon rtmicon-chevron-right fw-bold fs-6"></i>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                <div
+                  class="row row-cols-2 border-bottom border-1 border-accent align-items-center"
+                >
+                  <div class="col">
+                    <div class="d-flex align-items-center">
+                      <h2 class="number" data-target="25" data-duration="1000">
+                        0
+                      </h2>
+                      <h5>+</h5>
                     </div>
-                    <div class="col mb-3 scrollanimation animated fadeInRight adr-9 adl-6">
-                        <div class="d-flex flex-column align-items-center gap-3">
-                            <div class="d-flex flex-column gap-3 card-service">
-                                <div class="position-relative">
-                                    <img class="img-fluid" src="image/dummy-img-1920x1280.jpg" alt=""
-                                        style="border-radius: 30px" />
-                                    <div class="position-absolute icon-box-2" style="bottom: -20px; right: 40px">
-                                        <i class="rtmicon rtmicon-chevron-right fw-bold fs-6"></i>
-                                    </div>
-                                </div>
-                                <div class="d-flex flex-column gap-2">
-                                    <h4 class="accent-color">Immunizations</h4>
-                                    <p>
-                                        Protecting your pet from common diseases with essential
-                                        vaccinations.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col mb-3 scrollanimation animated fadeInRight adr-9 adl-9" style="margin-top: 5%">
-                        <div class="d-flex flex-column align-items-center gap-3">
-                            <div class="d-flex flex-column gap-3 card-service">
-                                <div class="d-flex flex-column gap-2">
-                                    <h4 class="accent-color">Dental Care & Cleanings</h4>
-                                    <p>
-                                        Professional teeth cleaning, check-ups, and dental
-                                        treatments to maintain oral health.
-                                    </p>
-                                </div>
-                                <div class="position-relative">
-                                    <img class="img-fluid" src="image/dummy-img-1920x1280.jpg" alt=""
-                                        style="border-radius: 30px" />
-                                    <div class="position-absolute icon-box-2" style="top: -20px; right: 40px">
-                                        <i class="rtmicon rtmicon-chevron-right fw-bold fs-6"></i>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                  </div>
+                  <div class="col">
+                    <p
+                      class="accent-color scrollanimation animated fadeInLeft adr-9 adl-5"
+                    >
+                      Medic Veteriner
+                    </p>
+                  </div>
                 </div>
-                <div class="w-max-content floating-top scrollanimation animated zoomIn adr-9 adl-7">
-                    <a class="btn btn-accent-2 d-flex flex-row gap-3 rounded-5" href="">
-                        <span class="accent-color">All Services</span>
-                        <i
-                            class="rtmicon rtmicon-chevron-right rounded-circle bg-accent-color p-2 fw-bold accent-color-primary"></i>
-                    </a>
+                <div
+                  class="row row-cols-2 border-bottom border-1 border-accent align-items-center"
+                >
+                  <div class="col">
+                    <div class="d-flex align-items-center">
+                      <h2 class="number" data-target="98" data-duration="1000">
+                        0
+                      </h2>
+                      <h5>%</h5>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <p
+                      class="accent-color scrollanimation animated fadeInLeft adr-9 adl-6"
+                    >
+                      Happy Clients
+                    </p>
+                  </div>
                 </div>
+                <div
+                  class="row row-cols-2 border-bottom border-1 border-accent align-items-center"
+                >
+                  <div class="col">
+                    <div class="d-flex align-items-center">
+                      <h2 class="number" data-target="1" data-duration="1000">
+                        1
+                      </h2>
+                      <h2>.</h2>
+                      <h2 class="number" data-target="5" data-duration="1000">
+                        5
+                      </h2>
+                      <h2>k</h2>
+                      <h5>+</h5>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <p
+                      class="accent-color scrollanimation animated fadeInLeft adr-9 adl-7"
+                    >
+                      Pets Treated
+                    </p>
+                  </div>
+                </div>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
 
-        <!-- Section Testimonials -->
-        <div class="section overflow-visible">
-            <div class="r-container">
-                <div class="row row-cols-xl-2 row-cols-1 gap-5">
-                    <div class="col col-xl-4 mb-3">
-                        <div class="bg-accent-color-5 rounded-5 position-relative w-100 h-100">
-                            <img class="img-fluid w-100 float-img testi" src="image/dummy-img-465x675.jpg" alt="" />
-                        </div>
-                    </div>
-                    <div class="col col-xl-7 mb-3 position-relative">
-                        <div class="d-flex flex-column gap-3">
-                            <div
-                                class="d-flex flex-row gap-2 align-items-center scrollanimation animated fadeInUp adr-9 adl-3">
-                                <img src="image/paw.png" alt="" />
-                                <h6 class="m-0">Testimonials</h6>
-                            </div>
-                            <h3 class="scrollanimation animated fadeInDown adr-9" style="width: 80%;">Why Pet
-                                Owners
-                                Trust Us with Their Pet</h3>
-                            <p>
-                                With compassionate care, expert grooming, and a focus on your
-                                pet’s wellbeing, we provide the best for your fur babies every
-                                time they visit.
-                            </p>
-                            <div class="overflow-hidden">
-                                <div class="swiper swiperTestimonials">
-                                    <!-- Additional required wrapper -->
-                                    <div class="swiper-wrapper">
-                                        <!-- Slides -->
-                                        <div class="swiper-slide">
-                                            <div
-                                                class="card testimonial-container justify-content-center align-items-center position-relative">
-                                                <div class="d-flex flex-column gap-3">
-                                                    <i class="rtmicon rtmicon-blockquote position-absolute top-0 start-0"
-                                                        style="font-size: 64px"></i>
-                                                    <p class="testimonial-text">
-                                                        “We can’t thank the veterinary team enough for the
-                                                        care they gave our dog, Charlie. After a tough
-                                                        surgery, they went above and beyond to ensure his
-                                                        recovery was smooth. Their follow-up care and
-                                                        support were outstanding!”
-                                                    </p>
-                                                    <div
-                                                        class="d-flex flex-row align-items-center justify-content-between">
-                                                        <div class="d-flex flex-column gap-1 align-items-start">
-                                                            <h5 class="m-0 text-black">Rachel Emily</h5>
-                                                            <p class="accent-color">Designation</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <div
-                                                class="card testimonial-container justify-content-center align-items-center position-relative">
-                                                <div class="d-flex flex-column gap-3">
-                                                    <i class="rtmicon rtmicon-blockquote position-absolute top-0 start-0"
-                                                        style="font-size: 64px"></i>
-                                                    <p class="testimonial-text">
-                                                        “We can’t thank the veterinary team enough for the
-                                                        care they gave our dog, Charlie. After a tough
-                                                        surgery, they went above and beyond to ensure his
-                                                        recovery was smooth. Their follow-up care and
-                                                        support were outstanding!”
-                                                    </p>
-                                                    <div
-                                                        class="d-flex flex-row align-items-center justify-content-between">
-                                                        <div class="d-flex flex-column gap-1 align-items-start">
-                                                            <h5 class="m-0 text-black">Rachel Emily</h5>
-                                                            <p class="accent-color">Designation</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <div
-                                                class="card testimonial-container justify-content-center align-items-center position-relative">
-                                                <div class="d-flex flex-column gap-3">
-                                                    <i class="rtmicon rtmicon-blockquote position-absolute top-0 start-0"
-                                                        style="font-size: 64px"></i>
-                                                    <p class="testimonial-text">
-                                                        “We can’t thank the veterinary team enough for the
-                                                        care they gave our dog, Charlie. After a tough
-                                                        surgery, they went above and beyond to ensure his
-                                                        recovery was smooth. Their follow-up care and
-                                                        support were outstanding!”
-                                                    </p>
-                                                    <div
-                                                        class="d-flex flex-row align-items-center justify-content-between">
-                                                        <div class="d-flex flex-column gap-1 align-items-start">
-                                                            <h5 class="m-0 text-black">Rachel Emily</h5>
-                                                            <p class="accent-color">Designation</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- If we need pagination -->
-                                    <div class="swiper-pagination"></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="d-flex flex-column align-items-end justify-content-center gap-1 rounded-pill position-relative scrollanimation animated fadeInUp adr-9 adl-3"
-                            style="margin-top: -11rem; z-index: 2">
-                            <div class="d-flex flex-row gap-2 align-items-center">
-                                <div class="position-relative">
-                                    <div class="d-flex flex-row customer-container">
-                                        <div class="customer-item">
-                                            <img src="image/dummy-img-600x600.jpg" class="img-fluid" alt="" />
-                                        </div>
-                                        <div class="customer-item">
-                                            <img src="image/dummy-img-600x600.jpg" class="img-fluid" alt="" />
-                                        </div>
-                                        <div class="customer-item">
-                                            <img src="image/dummy-img-600x600.jpg" class="img-fluid" alt="" />
-                                        </div>
-                                    </div>
-                                </div>
-                                <h4 class="m-0">98%</h4>
-                            </div>
-                            <span class="accent-color-3" style="font-size: 18px">Happy Client</span>
-                        </div>
-                    </div>
+      <!-- Section Gallery -->
+      <div class="section">
+        <div class="d-flex flex-column align-items-end">
+          <div class="swiper swiperImage w-100">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="card">
+                  <div class="overflow-hidden rounded-5">
+                    <a
+                      href="image/dummy-img-1920x1280.jpg"
+                      data-fslightbox="gallery"
+                      ><img
+                        src="image/10.jpg"
+                        alt=""
+                        class="img-fluid"
+                        style="aspect-ratio: 3/2"
+                    /></a>
+                  </div>
                 </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card">
+                  <div class="overflow-hidden rounded-5">
+                    <a
+                      href="image/dummy-img-1920x1280.jpg"
+                      data-fslightbox="gallery"
+                      ><img
+                        src="image/35.jpg"
+                        alt=""
+                        class="img-fluid"
+                        style="aspect-ratio: 1/1"
+                    /></a>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card">
+                  <div class="overflow-hidden rounded-5">
+                    <a
+                      href="image/dummy-img-1920x1280.jpg"
+                      data-fslightbox="gallery"
+                      ><img
+                        src="image/20.jpg"
+                        alt=""
+                        class="img-fluid"
+                        style="aspect-ratio: 3/2"
+                    /></a>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card">
+                  <div class="overflow-hidden rounded-5">
+                    <a
+                      href="image/dummy-img-1920x1280.jpg"
+                      data-fslightbox="gallery"
+                      ><img
+                        src="image/24.jpg"
+                        alt=""
+                        class="img-fluid"
+                        style="aspect-ratio: 1/1"
+                    /></a>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card">
+                  <div class="overflow-hidden rounded-5">
+                    <a
+                      href="image/dummy-img-1920x1280.jpg"
+                      data-fslightbox="gallery"
+                      ><img
+                        src="image/2.jpg"
+                        alt=""
+                        class="img-fluid"
+                        style="aspect-ratio: 3/2"
+                    /></a>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card">
+                  <div class="overflow-hidden rounded-5">
+                    <a
+                      href="image/dummy-img-1920x1280.jpg"
+                      data-fslightbox="gallery"
+                      ><img
+                        src="image/31.jpg"
+                        alt=""
+                        class="img-fluid"
+                        style="aspect-ratio: 1/1"
+                    /></a>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card">
+                  <div class="overflow-hidden rounded-5">
+                    <a
+                      href="image/dummy-img-1920x1280.jpg"
+                      data-fslightbox="gallery"
+                      ><img
+                        src="image/12.jpg"
+                        alt=""
+                        class="img-fluid"
+                        style="aspect-ratio: 3/2"
+                    /></a>
+                  </div>
+                </div>
+              </div>
             </div>
+            <!-- Add arrows -->
+            <div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+            </div>
+          </div>
+          <div class="w-max-content float-button">
+            <a
+              class="btn btn-accent d-flex flex-row gap-3 rounded-5"
+              href="gallery.html"
+            >
+              <span>See All Photos</span>
+              <i
+                class="rtmicon rtmicon-chevron-right rounded-circle bg-white p-2 fw-bold accent-color"
+              ></i>
+            </a>
+          </div>
         </div>
+      </div>
+
+      <!-- Section Certification -->
+      <div class="section">
+        <div class="r-container">
+          <div class="row row-cols-xl-2 row-cols-1 align-items-end">
+            <div class="col mb-xl-0 mb-3">
+              <div class="d-flex flex-column gap-3 justify-content-center">
+                <div
+                  class="d-flex flex-row gap-2 align-items-center scrollanimation animated fadeInUp adr-9 adl-2"
+                >
+                  <img src="image/paw.png" alt="" />
+                  <h6 class="m-0">Trust Us</h6>
+                </div>
+                <h3 class="scrollanimation animated fadeInDown adr-9">
+                  Compassionate Care for Every Stage of Your Pet's Life
+                </h3>
+                <p style="max-width: 80%">
+                  We provide compassionate care tailored to your pet’s unique
+                  needs at every stage of life, ensuring their health,
+                  happiness, and comfort.
+                </p>
+                <div class="d-flex flex-column gap-3">
+                  <div class="certified-name gap-3">
+                    <img class="img-fluid" src=" image/39.png" alt="" />
+                    <div
+                      class="ms-5 scrollanimation animated fadeInUp adr-9 adl-3"
+                    >
+                      <h5>Certified Veterinary Technician</h5>
+                      <p class="m-0">January 15, 2024</p>
+                    </div>
+                  </div>
+                  <div class="certified-name gap-3">
+                    <img class="img-fluid" src="image/40.png" alt="" />
+                    <div
+                      class="ms-5 scrollanimation animated fadeInUp adr-9 adl-4"
+                    >
+                      <h5>Certified Pet Grooming Specialist</h5>
+                      <p class="m-0">March 22, 2023</p>
+                    </div>
+                  </div>
+                  <div class="certified-name gap-3 border-0">
+                    <img class="img-fluid" src="image/41.png" alt="" />
+                    <div
+                      class="ms-5 scrollanimation animated fadeInUp adr-9 adl-5"
+                    >
+                      <h5>Veterinary Care Certification</h5>
+                      <p class="m-0">September 5, 2023</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col mb-xl-0 mb-3">
+              <div class="d-flex align-items-center justify-content-center">
+                <img class="img-fluid w-100" src="image/42.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Section Marquee -->
+      <div class="section p-0">
+        <div
+          class="d-flex flex-column gap-3 text-center align-items-center justify-content-center mx-auto position-relative accent-primary"
+        >
+          <div class="marquee-container bg-accent-color-4">
+            <div class="marquee-content green-neon">
+              <div
+                class="marquee-item-2 py-2 d-flex align-items-center justify-content-center"
+              >
+                <h3 class="m-0">Hear From Our Happy Pet Owners.</h3>
+              </div>
+              <div class="marquee-item-2 py-2 d-flex align-items-center">
+                <img
+                  src="image/star-of-life-black.png"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+              <div
+                class="marquee-item-2 py-2 d-flex align-items-center justify-content-center"
+              >
+                <h3 class="m-0">
+                  Trust Us to Keep Your Pets Healthy and Happy.
+                </h3>
+              </div>
+              <div class="marquee-item-2 py-2 d-flex align-items-center">
+                <img
+                  src="image/star-of-life-black.png"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+              <div
+                class="marquee-item-2 py-2 d-flex align-items-center justify-content-center"
+              >
+                <h3 class="m-0">Appreciate About Our Personalized Care.</h3>
+              </div>
+              <div class="marquee-item-2 py-2 d-flex align-items-center">
+                <img
+                  src="image/star-of-life-black.png"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Section CTA -->
+      <div
+        class="section overflow-visible mt-xl-5"
+        style="margin-bottom: -6.5 rem; z-index: 2"
+      >
+        <div
+          class="r-container position-relative bg-accent-color-5 rounded-5 bg-attach-cover"
+          style="background-image: url(image/bg-cta.png)"
+        >
+          <div
+            class="d-flex flex-xl-row flex-column-reverse align-items-center"
+          >
+            <div class="col col-xl-5">
+              <div class="float-img">
+                <img class="img-fluid" src="image/45.png" alt="" />
+              </div>
+            </div>
+            <div class="col col-xl-7">
+              <div
+                class="d-flex flex-column justify-content-center gap-4 pt-5 p-xl-5 mx-auto m-xl-0"
+                style="max-width: 80%"
+              >
+                <div
+                  class="d-flex flex-row gap-2 align-items-center scrollanimation animated fadeInUp adr-9 adl-3"
+                >
+                  <img src="image/paw.png" alt="" />
+                  <h6 class="m-0">The Best Care</h6>
+                </div>
+                <h3 class="scrollanimation animated fadeInDown adr-9">
+                  New Client? Get 10% Off Your First Visit!
+                </h3>
+                <p>
+                  New here? Enjoy 10% off your first visit—because your pet
+                  deserves the best care right from the start!
+                </p>
+                <div class="d-flex flex-row gap-2 align-items-center mb-3">
+                  <div class="w-max-content">
+                    <a
+                      class="btn btn-accent-2 d-flex flex-row gap-3 rounded-5"
+                      href=""
+                    >
+                      <span class="accent-color">Make Appointment</span>
+                      <i
+                        class="rtmicon rtmicon-chevron-right rounded-circle bg-accent-color p-2 fw-bold accent-color-primary"
+                      ></i>
+                    </a>
+                  </div>
+                  <button
+                    type="button"
+                    class="request-loader"
+                    data-bs-toggle="modal"
+                    data-bs-target="#e119"
+                  >
+                    <i class="fa-solid fa-play ms-1"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Section Veterinary Service -->
+      <div class="section">
+        <div class="r-container d-flex flex-column align-items-center">
+          <div
+            class="d-flex flex-column justify-content-center align-items-center gap-3 text-center mx-auto mb-4"
+            style="max-width: 658px"
+          >
+            <div
+              class="d-flex flex-row gap-2 align-items-center justify-content-center scrollanimation animated fadeInUp adr-9"
+            >
+              <img src="image/paw.png" alt="" />
+              <h6 class="m-0">Pet's Health</h6>
+            </div>
+            <h3 class="text-center scrollanimation animated zoomIn adr-9 adl-3">
+              Expert Care for Every Stage of Your Pet’s Life
+            </h3>
+            <p class="text-center" style="max-width: 80%">
+              From puppies to seniors, we provide specialized care at every
+              stage, ensuring your pet’s health and happiness throughout their
+              life.
+            </p>
+          </div>
+          <div class="row row-cols-xl-3 row-cols-1">
+            <div
+              class="col mb-3 scrollanimation animated fadeInRight adr-9 adl-3"
+              style="margin-top: 5%"
+            >
+              <div class="d-flex flex-column align-items-center gap-3">
+                <div class="d-flex flex-column gap-3 card-service">
+                  <div class="d-flex flex-column gap-2">
+                    <h4 class="accent-color">Wellness Check-ups</h4>
+                    <p>
+                      Monitor your pet’s health, prevent diseases, and keep them
+                      in top shape.
+                    </p>
+                  </div>
+                  <div class="position-relative">
+                    <img
+                      class="img-fluid"
+                      src="image/13.jpg"
+                      alt=""
+                      style="border-radius: 30px"
+                    />
+                    <div
+                      class="position-absolute icon-box-2"
+                      style="top: -20px; right: 40px"
+                    >
+                      <i class="rtmicon rtmicon-chevron-right fw-bold fs-6"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col mb-3 scrollanimation animated fadeInRight adr-9 adl-6"
+            >
+              <div class="d-flex flex-column align-items-center gap-3">
+                <div class="d-flex flex-column gap-3 card-service">
+                  <div class="position-relative">
+                    <img
+                      class="img-fluid"
+                      src="image/21.jpg"
+                      alt=""
+                      style="border-radius: 30px"
+                    />
+                    <div
+                      class="position-absolute icon-box-2"
+                      style="bottom: -20px; right: 40px"
+                    >
+                      <i class="rtmicon rtmicon-chevron-right fw-bold fs-6"></i>
+                    </div>
+                  </div>
+                  <div class="d-flex flex-column gap-2">
+                    <h4 class="accent-color">Immunizations</h4>
+                    <p>
+                      Protecting your pet from common diseases with essential
+                      vaccinations.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col mb-3 scrollanimation animated fadeInRight adr-9 adl-9"
+              style="margin-top: 5%"
+            >
+              <div class="d-flex flex-column align-items-center gap-3">
+                <div class="d-flex flex-column gap-3 card-service">
+                  <div class="d-flex flex-column gap-2">
+                    <h4 class="accent-color">Dental Care & Cleanings</h4>
+                    <p>
+                      Professional teeth cleaning, check-ups, and dental
+                      treatments to maintain oral health.
+                    </p>
+                  </div>
+                  <div class="position-relative">
+                    <img
+                      class="img-fluid"
+                      src="image/20.jpg"
+                      alt=""
+                      style="border-radius: 30px"
+                    />
+                    <div
+                      class="position-absolute icon-box-2"
+                      style="top: -20px; right: 40px"
+                    >
+                      <i class="rtmicon rtmicon-chevron-right fw-bold fs-6"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="w-max-content floating-top scrollanimation animated zoomIn adr-9 adl-6"
+          >
+            <a class="btn btn-accent-2 d-flex flex-row gap-3 rounded-5" href="">
+              <span class="accent-color">All Services</span>
+              <i
+                class="rtmicon rtmicon-chevron-right rounded-circle bg-accent-color p-2 fw-bold accent-color-primary"
+              ></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Section Features -->
+      <div class="section overflow-visible">
+        <div
+          class="r-container d-flex align-items-center bg-accent-color-4 rounded-5 bg-attach-cover position-relative"
+          style="background-image: url(image/BG.png)"
+        >
+          <div
+            class="row rows-cols-xl-3 row-cols-1 align-items-center justify-content-center"
+          >
+            <div class="col col-xl-4 mb-3">
+              <div
+                class="d-flex flex-column gap-3 justify-content-center p-5 h-100"
+              >
+                <div class="d-flex flex-row gap-2 align-items-center">
+                  <div
+                    class="icon-box-5 accent-color-primary scrollanimation animated zoomIn adr-9 adl-3"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      id="Primary_Outline"
+                      data-name="Primary Outline"
+                      viewBox="0 0 64 64"
+                      width="20"
+                      height="20"
+                      fill="CurrentColor"
+                    >
+                      <path
+                        class="cls-1"
+                        d="M48.8,13.08c0-.88.72-1.6,1.6-1.6h2.2c.88,0,1.6.72,1.6,1.6v1.13h-5.39v-1.13ZM21.98,10.52c0-1.8,1.47-3.27,3.27-3.27h13.61c1.8,0,3.27,1.47,3.27,3.27v3.7h-20.14v-3.7ZM9.8,14.21v-1.13c0-.88.72-1.6,1.6-1.6h2.2c.88,0,1.6.72,1.6,1.6v1.13h-5.39ZM10,15.71h44c3.45,0,6.25,2.8,6.25,6.25v1.74l-4.88,10.79c-.49,1.09-1.53,1.8-2.71,1.89v-1.67c0-1.5-1.22-2.73-2.73-2.73h-1.97c-1.5,0-2.73,1.22-2.73,2.73v1.69h-1.75c-.39-6.01-5.39-10.78-11.5-10.78s-11.11,4.77-11.5,10.78h-1.53v-1.7c0-1.5-1.22-2.72-2.72-2.72h-1.97c-1.51,0-2.73,1.23-2.73,2.73v1.69c-1.26-.02-2.4-.76-2.92-1.91l-4.87-10.78v-1.74c0-3.45,2.8-6.25,6.25-6.25ZM51.16,37.14s0,0,0,0,0,0,0,0v3.06c0,1.22-.99,2.21-2.21,2.21s-2.21-.99-2.21-2.21v-5.51c0-.68.55-1.23,1.23-1.23h1.97c.68,0,1.23.55,1.23,1.23v2.44ZM21.95,37.13c0-5.53,4.51-10.02,10.04-10.02s10.04,4.5,10.04,10.04-4.5,10.04-10.04,10.04-10.03-4.5-10.04-10.03c0,0,0,0,0-.01,0,0,0,0,0-.01ZM13.04,34.7c0-.68.55-1.23,1.23-1.23h1.97c.67,0,1.22.55,1.22,1.22v5.52c0,1.22-.99,2.21-2.21,2.21s-2.21-.99-2.21-2.21v-5.51ZM58,56.75H6c-1.24,0-2.25-1.01-2.25-2.25v-27.16l3.51,7.76c.75,1.68,2.43,2.78,4.28,2.79v2.32c0,2.05,1.66,3.71,3.71,3.71s3.71-1.66,3.71-3.71v-2.32h1.53c.39,6.01,5.39,10.79,11.5,10.79s11.11-4.78,11.5-10.79h1.75v2.32c0,2.05,1.67,3.71,3.71,3.71s3.71-1.67,3.71-3.71v-2.33c1.77-.09,3.36-1.15,4.08-2.77l3.51-7.76v27.16c0,1.24-1.01,2.25-2.25,2.25ZM27.44,40.11h1.63v1.63c0,1.37,1.12,2.49,2.49,2.49h.96c1.37,0,2.49-1.12,2.49-2.49v-1.63h1.63c1.37,0,2.49-1.12,2.49-2.49v-.96c0-1.37-1.12-2.49-2.49-2.49h-1.63v-1.63c0-1.37-1.12-2.49-2.49-2.49h-.96c-1.37,0-2.49,1.12-2.49,2.49v1.63h-1.63c-1.37,0-2.49,1.12-2.49,2.49v.96c0,1.37,1.12,2.49,2.49,2.49ZM26.45,36.65c0-.55.44-.99.99-.99h2.38c.41,0,.75-.34.75-.75v-2.38c0-.55.44-.99.99-.99h.96c.55,0,.99.44.99.99v2.38c0,.41.34.75.75.75h2.38c.55,0,.99.44.99.99v.96c0,.55-.44.99-.99.99h-2.38c-.41,0-.75.34-.75.75v2.38c0,.55-.44.99-.99.99h-.96c-.55,0-.99-.44-.99-.99v-2.38c0-.41-.34-.75-.75-.75h-2.38c-.55,0-.99-.44-.99-.99v-.96Z"
+                      />
+                    </svg>
+                  </div>
+                  <h4 class="m-0 scrollanimation animated fadeInDown adr-9">
+                    Health Assessments
+                  </h4>
+                </div>
+                <p>
+                  We offer thorough health check-ups for your pets and providing
+                  personalized treatment plans for long-term wellness.
+                </p>
+              </div>
+            </div>
+            <div class="col col-xl-4 mb-3">
+              <div
+                class="d-flex flex-column gap-3 justify-content-center p-5 h-100"
+              >
+                <div class="d-flex flex-row gap-2 align-items-center">
+                  <div
+                    class="icon-box-5 accent-color-primary scrollanimation animated zoomIn adr-9 adl-3"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      id="Primary_Outline"
+                      data-name="Primary Outline"
+                      viewBox="0 0 64 64"
+                      width="20"
+                      height="20"
+                      fill="CurrentColor"
+                    >
+                      <path
+                        class="cls-1"
+                        d="M28.54,29.9h26.89v23.13h-26.89v-23.13ZM30.57,9.58l-.38.8c-.34.71-1.33.96-1.97.49-.5-.37-.66-1.11-.37-1.72l.52-1.09c.92-1.94,2.9-3.19,5.04-3.19h3.15c0,.06-.02.13-.02.19v2.45h-2.7c-1.41,0-2.67.79-3.27,2.07ZM38.04,8.09v-3.03c0-.17.04-.32.09-.47.03-.04.05-.09.07-.14.22-.41.64-.7,1.14-.7h5.27c.72,0,1.31.59,1.31,1.31v3.03c0,.72-.59,1.31-1.31,1.31h-5.27c-.72,0-1.31-.59-1.31-1.31ZM40.2,10.9h3.54v3.95h-3.54v-3.95ZM33.01,18.05c0-.94.76-1.7,1.7-1.7h14.55c.94,0,1.7.76,1.7,1.7v.17c0,.94-.76,1.7-1.7,1.7h-14.55c-.94,0-1.7-.76-1.7-1.7v-.17ZM36.41,21.42h11.15c4.01,0,7.36,3.06,7.82,6.97h-26.78c.45-3.91,3.81-6.97,7.82-6.97ZM25.9,58.83c-.19-.08-.38-.18-.57-.27-.86-.42-1.84-.91-2.94-.73-.96.16-1.67.76-2.3,1.3-.31.26-.59.51-.89.69-1.17.73-2.92.5-3.98-.53-.68-.65-1.66-.83-2.56-.46-1.13.46-2.62.07-3.37-.89-.98-1.23-.94-3.25.09-4.69.75-1.05,2.01-1.79,3.36-1.97,1.2-.16,2.12-1.16,2.14-2.33.02-1.15.47-2.25,1.24-3.03.72-.73,1.75-1.2,2.83-1.28,1.28-.09,2.27-1.14,2.27-2.38,0-1.3.45-2.6,1.26-3.55,1.11-1.31,2.88-2.01,4.58-1.87v10.02c-.14.05-.27.13-.36.25-1.07,1.49-3.08,2.29-4.88,1.95-.37-.07-.75.16-.86.53l-1.11,3.77c-.12.4.11.81.51.93.07.02.14.03.21.03.33,0,.62-.21.72-.54l.93-3.16c1.77.14,3.54-.51,4.84-1.69v6.5c0,1.25.45,2.38,1.17,3.28-.65.29-1.73.38-2.31.12ZM51.62,59.24h-19.26c-2.1,0-3.81-1.71-3.81-3.8v-.91h26.89v.91c0,2.1-1.71,3.8-3.81,3.8ZM41.81,42.56c-3.55,0-6.12,2.19-6.12,5.21,0,.93.24,1.6.73,2.06.83.77,2.09.67,3.54.55,1.18-.09,2.51-.09,3.69,0,.51.04,1,.08,1.45.08.84,0,1.55-.13,2.09-.63.49-.45.73-1.13.73-2.06,0-3.02-2.57-5.21-6.12-5.21ZM46.18,48.72c-.35.32-1.35.24-2.41.16-.59-.05-1.26-.1-1.96-.1s-1.37.05-1.96.1c-1.06.08-2.06.16-2.41-.16-.21-.19-.25-.62-.25-.96,0-2.55,2.39-3.71,4.62-3.71s4.62,1.16,4.62,3.71c0,.33-.04.77-.25.96ZM42,40.69c1.81,0,3.28-1.78,3.28-3.96s-1.47-3.96-3.28-3.96-3.28,1.78-3.28,3.96,1.47,3.96,3.28,3.96ZM42,34.26c.97,0,1.78,1.13,1.78,2.46s-.82,2.46-1.78,2.46-1.78-1.13-1.78-2.46.82-2.46,1.78-2.46ZM36.71,41.83c.51-.93.59-2.12.23-3.27-.65-2.08-2.57-3.38-4.31-2.9-.74.21-1.36.72-1.75,1.44-.51.93-.59,2.12-.23,3.27.56,1.79,2.06,3,3.57,3,.25,0,.5-.03.74-.1.74-.21,1.36-.72,1.75-1.44ZM35.39,41.11c-.14.25-.4.58-.83.71-.94.26-2.07-.61-2.47-1.9-.23-.75-.19-1.54.12-2.11.14-.25.4-.58.83-.71.11-.03.23-.05.34-.05.85,0,1.77.81,2.13,1.95.23.75.19,1.54-.12,2.11ZM53.11,37.09c-.39-.72-1.01-1.23-1.75-1.44-1.72-.48-3.66.82-4.31,2.9-.36,1.15-.27,2.34.23,3.27.39.72,1.01,1.23,1.75,1.44.24.07.49.1.74.1,1.51,0,3.01-1.21,3.57-3,.36-1.15.27-2.34-.23-3.27ZM51.91,39.92c-.4,1.29-1.54,2.16-2.47,1.9-.44-.12-.7-.45-.83-.71-.31-.57-.35-1.36-.12-2.11.4-1.29,1.54-2.16,2.47-1.9.44.12.7.45.83.71.31.57.35,1.36.12,2.11ZM15.1,41.08c2.4,0,4.36-1.96,4.36-4.36s-1.96-4.36-4.36-4.36-4.36,1.95-4.36,4.36,1.95,4.36,4.36,4.36ZM21.44,30.71c2.17,0,3.94-1.77,3.94-3.94s-1.77-3.94-3.94-3.94-3.94,1.77-3.94,3.94,1.77,3.94,3.94,3.94Z"
+                      />
+                    </svg>
+                  </div>
+                  <h4 class="m-0 scrollanimation animated fadeInDown adr-9">
+                    Stress-Free Grooming
+                  </h4>
+                </div>
+                <p style="max-width: 80%">
+                  We prioritize your pet's comfort with a calm, soothing
+                  atmosphere and experienced groomers.
+                </p>
+              </div>
+            </div>
+            <div class="col col-xl-4 mb-3">
+              <div class="floating-image">
+                <img class="img-fluid w-100" src="image/44.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Section Grooming Services -->
+      <div class="section">
+        <div class="r-container">
+          <div class="row row-cols-xl-3 row-cols-1">
+            <div class="col col-xl-4 mb-5">
+              <div class="d-flex flex-column gap-3">
+                <div
+                  class="d-flex flex-row align-items-center gap-2 mb-3 scrollanimation animated fadeInUp adr-9 adl-3"
+                >
+                  <img src="image/paw.png" alt="" />
+                  <h6 class="m-0">Fresh & Clean</h6>
+                </div>
+                <h3 class="scrollanimation animated fadeInDown adr-9">
+                  Spa Day for Your Furry Friend
+                </h3>
+                <div class="d-flex flex-column mt-3">
+                  <div class="navigation">
+                    <h5>Full Grooming</h5>
+                    <img
+                      src="image/15.jpg"
+                      class="img-fluid"
+                      style="aspect-ratio: 1/1"
+                      height="120px"
+                      width="109"
+                      alt=""
+                    />
+                    <a
+                      href="index.html"
+                      class="d-flex"
+                      style="justify-self: end"
+                    >
+                      <i class="rtmicon rtmicon-chevron-right fw-bold"></i>
+                    </a>
+                  </div>
+                  <hr />
+                  <div class="navigation">
+                    <h5>Paw Care</h5>
+                    <img
+                      src="image/15.jpg"
+                      class="img-fluid"
+                      style="aspect-ratio: 1/1"
+                      height="109"
+                      width="109"
+                      alt=""
+                    />
+                    <a
+                      href="properties.html"
+                      class="d-flex"
+                      style="justify-self: end"
+                    >
+                      <i class="rtmicon rtmicon-chevron-right fw-bold"></i>
+                    </a>
+                  </div>
+                  <hr />
+                  <div class="navigation">
+                    <h5>Ear Cleaning</h5>
+                    <img
+                      src="image/15.jpg"
+                      class="img-fluid"
+                      style="aspect-ratio: 1/1"
+                      height="109"
+                      width="109"
+                      alt=""
+                    />
+                    <a
+                      href="about.html"
+                      class="d-flex"
+                      style="justify-self: end"
+                    >
+                      <i class="rtmicon rtmicon-chevron-right fw-bold"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col col-xl-5 mb-5">
+              <div class="position-relative h-100">
+                <img
+                  class="img-fluid h-100"
+                  src="image/19.jpg"
+                  style="aspect-ratio: 1/1; border-radius: 50px"
+                  alt=""
+                />
+                <div
+                  class="w-max-content position-absolute bottom-0 start-0 bg-accent-primary"
+                  style="
+                    border: 15px solid var(--primary);
+                    border-top-right-radius: 30px;
+                  "
+                >
+                  <a
+                    class="btn btn-accent rounded-pill d-flex flex-row gap-3 scrollanimation animated zoomIn adr-9 adl-3"
+                    href="contact-us.html"
+                  >
+                    <span>Contact Us</span>
+                    <i
+                      class="rtmicon rtmicon-chevron-right rounded-circle bg-accent-primary p-2 fw-bold accent-color"
+                    ></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col col-xl-3 mb-5">
+              <div class="d-flex flex-column gap-5 align-items-center">
+                <p class="scrollanimation animated fadeInUp adr-9 adl-5">
+                  Treat your pet to a relaxing spa day with our pampering
+                  grooming services, designed to refresh and rejuvenate your
+                  furry friend.
+                </p>
+                <img
+                  class="img-fluid h-100 w-100"
+                  src="image/25.jpg"
+                  style="aspect-ratio: 5/6; border-radius: 50px"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Section CTA -->
+      <div
+        class="section overflow-visible mt-xl-5"
+        style="margin-bottom: -6.5 rem; z-index: 2"
+      >
+        <div
+          class="r-container position-relative bg-accent-color-5 rounded-5 bg-attach-cover"
+          style="background-image: url(image/bg-cta.png)"
+        >
+          <div
+            class="d-flex flex-xl-row flex-column-reverse align-items-center"
+          >
+            <div class="col col-xl-5">
+              <div class="float-img">
+                <img class="img-fluid" src="image/45.png" alt="" />
+              </div>
+            </div>
+            <div class="col col-xl-7">
+              <div
+                class="d-flex flex-column justify-content-center gap-4 pt-5 p-xl-5 mx-auto m-xl-0"
+                style="max-width: 80%"
+              >
+                <div
+                  class="d-flex flex-row gap-2 align-items-center scrollanimation animated fadeInUp adr-9 adl-3"
+                >
+                  <img src="image/paw.png" alt="" />
+                  <h6 class="m-0">The Best Care</h6>
+                </div>
+                <h3 class="scrollanimation animated fadeInDown adr-9">
+                  New Client? Get 10% Off Your First Visit!
+                </h3>
+                <p>
+                  New here? Enjoy 10% off your first visit—because your pet
+                  deserves the best care right from the start!
+                </p>
+                <div class="d-flex flex-row gap-2 align-items-center mb-3">
+                  <div class="w-max-content">
+                    <a
+                      class="btn btn-accent-2 d-flex flex-row gap-3 rounded-5"
+                      href=""
+                    >
+                      <span class="accent-color">Make Appointment</span>
+                      <i
+                        class="rtmicon rtmicon-chevron-right rounded-circle bg-accent-color p-2 fw-bold accent-color-primary"
+                      ></i>
+                    </a>
+                  </div>
+                  <button
+                    type="button"
+                    class="request-loader"
+                    data-bs-toggle="modal"
+                    data-bs-target="#e119"
+                  >
+                    <i class="fa-solid fa-play ms-1"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Section Pricing Plan -->
+      <div class="section">
+        <div class="r-container d-flex flex-column gap-3">
+          <div
+            class="d-flex flex-column gap-3 align-items-center text-center mx-auto mb-4"
+            style="max-width: 600px"
+          >
+            <div
+              class="d-flex flex-row gap-2 align-items-center justify-content-center mb-2 scrollanimation animated fadeInUp adr-9"
+            >
+              <img src="image/paw.png" alt="" />
+              <h6 class="m-0">Pricing Plans</h6>
+            </div>
+            <h3
+              class="text-center mb-2 scrollanimation animated zoomIn adr-9 adl-2"
+            >
+              The Right Plan for Your Pet’s Needs
+            </h3>
+            <p class="text-center" style="max-width: 80%">
+              Perfect care plan tailored to your pet’s health and grooming,
+              ensuring they receive the best care at the right price.
+            </p>
+          </div>
+          <div class="row row-cols-xl-3 row-cols-1 mt-3">
+            <div class="col mb-5 scrollanimation animated fadeInRight adr-9">
+              <div class="card-pricing gap-3 position-relative">
+                <div
+                  class="d-flex flex-column gap-3 align-items-center custom-border"
+                >
+                  <h4>Basic Care Plan</h4>
+                  <div class="d-flex flex-row">
+                    <h3>$49</h3>
+                    <p class="align-self-end">/per visit</p>
+                  </div>
+                  <p class="text-center" style="max-width: 70%">
+                    Enjoy a basic grooming session to keep your pet looking
+                    fresh and clean.
+                  </p>
+                </div>
+                <div class="d-flex flex-column gap-3 p-3">
+                  <div class="d-flex flex-row gap-3 align-items-center">
+                    <img src="image/34.png" alt="" width="24" />
+                    <p class="m-0">Wellness check-up</p>
+                  </div>
+                  <div class="d-flex flex-row gap-3 align-items-center">
+                    <img src="image/34.png" alt="" width="24" />
+                    <p class="m-0">Vaccination update</p>
+                  </div>
+                  <div class="d-flex flex-row gap-3 align-items-center">
+                    <img src="image/34.png" alt="" width="24" />
+                    <p class="m-0">Routine flea & tick prevention</p>
+                  </div>
+                  <div class="d-flex flex-row gap-3 align-items-center">
+                    <img src="image/34.png" alt="" width="24" />
+                    <p class="m-0">Basic grooming (bath and brushing)</p>
+                  </div>
+                </div>
+                <div
+                  class="w-max-content scrollanimation animated zoomIn adr-9 adl-1"
+                >
+                  <a
+                    class="btn btn-accent d-flex flex-row gap-3 rounded-5 px-5"
+                    href=""
+                  >
+                    <span>Make Appointment</span>
+                    <i
+                      class="rtmicon rtmicon-chevron-right rounded-circle bg-white p-2 fw-bold accent-color"
+                    ></i>
+                  </a>
+                </div>
+                <div
+                  class="position-absolute icon-box-5 top-0"
+                  style="margin-top: -2.5rem"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    version="1.1"
+                    id="Icons"
+                    x="0px"
+                    y="0px"
+                    viewBox="0 0 24 24"
+                    width="45px"
+                    height="45px"
+                    fill="CurrentColor"
+                    enable-background="new 0 0 24 24"
+                    xml:space="preserve"
+                  >
+                    <g id="Pet-Carrier">
+                      <path
+                        d="M4.714,19.769c0.442,1.331,1.683,2.224,3.085,2.224h8.402c1.402,0,2.643-0.894,3.084-2.223l1.298-3.894H3.416L4.714,19.769   z"
+                      />
+                      <path
+                        d="M20.645,11.3l-1.359-4.077c-0.442-1.331-1.683-2.224-3.085-2.224h-0.313V4.704c0-1.487-1.21-2.697-2.697-2.697H10.81   c-1.487,0-2.697,1.21-2.697,2.697v0.295H7.799c-1.402,0-2.643,0.894-3.084,2.223L3.355,11.3c-0.654,0.068-1.171,0.603-1.171,1.275   c0,0.717,0.583,1.301,1.301,1.301h17.031c0.718,0,1.301-0.584,1.301-1.301C21.816,11.903,21.299,11.369,20.645,11.3z M9.458,11.274   h-2V8.39c0-0.552,0.447-1,1-1s1,0.448,1,1V11.274z M13,11.274h-2V8.39c0-0.552,0.447-1,1-1s1,0.448,1,1V11.274z M13.888,4.999   h-3.775V4.704c0-0.384,0.312-0.697,0.697-0.697h2.381c0.385,0,0.697,0.312,0.697,0.697V4.999z M16.542,11.274h-2V8.39   c0-0.552,0.447-1,1-1s1,0.448,1,1V11.274z"
+                      />
+                    </g>
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col mb-5 scrollanimation animated fadeInRight adr-9 adl-3"
+            >
+              <div class="card-pricing gap-3 position-relative">
+                <div
+                  class="d-flex flex-column gap-3 align-items-center custom-border"
+                >
+                  <h4>Premium Health Plan</h4>
+                  <div class="d-flex flex-row">
+                    <h3>$159</h3>
+                    <p class="align-self-end">/per visit</p>
+                  </div>
+                  <p class="text-center" style="max-width: 70%">
+                    Offers a comprehensive health check-up, blood tests, and
+                    screenings.
+                  </p>
+                </div>
+                <div class="d-flex flex-column gap-3 p-3">
+                  <div class="d-flex flex-row gap-3 align-items-center">
+                    <img src="image/34.png" alt="" width="24" />
+                    <p class="m-0">Comprehensive health check-up</p>
+                  </div>
+                  <div class="d-flex flex-row gap-3 align-items-center">
+                    <img src="image/34.png" alt="" width="24" />
+                    <p class="m-0">Blood tests & diagnostics</p>
+                  </div>
+                  <div class="d-flex flex-row gap-3 align-items-center">
+                    <img src="image/34.png" alt="" width="24" />
+                    <p class="m-0">Vaccinations & parasite prevention</p>
+                  </div>
+                  <div class="d-flex flex-row gap-3 align-items-center">
+                    <img src="image/34.png" alt="" width="24" />
+                    <p class="m-0">Full grooming</p>
+                  </div>
+                </div>
+                <div
+                  class="w-max-content scrollanimation animated zoomIn adr-9 adl-2"
+                >
+                  <a
+                    class="btn btn-accent d-flex flex-row gap-3 rounded-5 px-5"
+                    href=""
+                  >
+                    <span>Make Appointment</span>
+                    <i
+                      class="rtmicon rtmicon-chevron-right rounded-circle bg-white p-2 fw-bold accent-color"
+                    ></i>
+                  </a>
+                </div>
+                <div
+                  class="position-absolute icon-box-5 top-0"
+                  style="margin-top: -2.5rem"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    id="Primary_Outline"
+                    data-name="Primary Outline"
+                    viewBox="0 0 64 64"
+                    width="45px"
+                    height="45px"
+                    fill="CurrentColor"
+                  >
+                    <path
+                      class="cls-1"
+                      d="M60.68,24.31c-.03-1.94-1.08-3.74-2.75-4.7-5.89-3.41-9.07-9.51-10.44-12.84-.86-2.09-2.88-3.45-5.14-3.45h-20.69c-2.26,0-4.28,1.35-5.14,3.45-1.37,3.33-4.55,9.43-10.44,12.84-1.66.96-2.72,2.76-2.75,4.7-.12,7.88,1.55,33.79,28.2,36.34.16.01.32.02.48.02s.32,0,.48-.02c26.65-2.54,28.32-28.46,28.2-36.34ZM31.71,14.46c2.58,0,4.69,2.7,4.69,6.01s-2.1,6.01-4.69,6.01-4.69-2.7-4.69-6.01,2.1-6.01,4.69-6.01ZM14.76,26.06c-.45-1.5-.42-3.05.06-4.37.52-1.39,1.48-2.36,2.72-2.73,2.48-.74,5.26,1.26,6.2,4.43.45,1.5.42,3.05-.06,4.37-.52,1.39-1.48,2.36-2.72,2.73-.35.1-.71.16-1.08.16-.91,0-1.84-.33-2.69-.96-1.12-.84-1.99-2.13-2.43-3.63ZM44.27,48.28c-1.07.98-2.57,1.26-4.34,1.26-1.09,0-2.28-.11-3.53-.22-1.5-.13-3.05-.27-4.69-.27s-3.19.14-4.69.27c-3.3.29-6.14.54-7.87-1.04-1.08-.99-1.6-2.58-1.6-4.88,0-7.74,5.83-13.15,14.17-13.15s14.17,5.41,14.17,13.15c0,2.29-.52,3.89-1.6,4.88ZM49.24,26.06c-.44,1.5-1.31,2.79-2.43,3.63-.85.63-1.78.96-2.69.96-.36,0-.72-.05-1.08-.16-1.24-.37-2.21-1.33-2.72-2.73-.49-1.32-.51-2.87-.06-4.37.94-3.18,3.71-5.18,6.2-4.43,1.24.37,2.21,1.33,2.72,2.73.49,1.31.51,2.87.06,4.37Z"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col mb-5 scrollanimation animated fadeInRight adr-9 adl-6"
+            >
+              <div class="card-pricing gap-3 position-relative">
+                <div
+                  class="d-flex flex-column gap-3 align-items-center custom-border"
+                >
+                  <h4>Ultimate Care Plan</h4>
+                  <div class="d-flex flex-row">
+                    <h3>$299</h3>
+                    <p class="align-self-end">/per visit</p>
+                  </div>
+                  <p class="text-center" style="max-width: 70%">
+                    Our Ultimate Care Plan provides all-inclusive, top-tier care
+                    for your pet’s.
+                  </p>
+                </div>
+                <div class="d-flex flex-column gap-3 p-3">
+                  <div class="d-flex flex-row gap-3 align-items-center">
+                    <img src="image/34.png" alt="" width="24" />
+                    <p class="m-0">Complete wellness check-up</p>
+                  </div>
+                  <div class="d-flex flex-row gap-3 align-items-center">
+                    <img src="image/34.png" alt="" width="24" />
+                    <p class="m-0">Specialized health consultation</p>
+                  </div>
+                  <div class="d-flex flex-row gap-3 align-items-center">
+                    <img src="image/34.png" alt="" width="24" />
+                    <p class="m-0">Emergency care and minor surgeries</p>
+                  </div>
+                  <div class="d-flex flex-row gap-3 align-items-center">
+                    <img src="image/34.png" alt="" width="24" />
+                    <p class="m-0">Comprehensive grooming</p>
+                  </div>
+                </div>
+                <div
+                  class="w-max-content scrollanimation animated zoomIn adr-9 adl-3"
+                >
+                  <a
+                    class="btn btn-accent d-flex flex-row gap-3 rounded-5 px-5"
+                    href=""
+                  >
+                    <span>Make Appointment</span>
+                    <i
+                      class="rtmicon rtmicon-chevron-right rounded-circle bg-white p-2 fw-bold accent-color"
+                    ></i>
+                  </a>
+                </div>
+                <div
+                  class="position-absolute icon-box-5 top-0"
+                  style="margin-top: -2.5rem"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    version="1.1"
+                    id="Icons"
+                    x="0px"
+                    y="0px"
+                    viewBox="0 0 24 24"
+                    width="45px"
+                    height="45px"
+                    fill="CurrentColor"
+                    enable-background="new 0 0 24 24"
+                    xml:space="preserve"
+                  >
+                    <g id="Pet-House">
+                      <path
+                        d="M21.664,10.252l-9-8c-0.379-0.337-0.949-0.337-1.328,0l-9,8c-0.413,0.367-0.45,0.999-0.083,1.412   c0.366,0.412,0.998,0.448,1.411,0.083l0.361-0.321V21c0,0.552,0.447,1,1,1h3.101v-3.197c0-2.136,1.738-3.875,3.874-3.875   s3.874,1.738,3.874,3.875V22h3.142c0.553,0,1-0.448,1-1v-9.537l0.32,0.285C20.526,11.917,20.764,12,21,12   c0.275,0,0.55-0.113,0.747-0.335C22.114,11.251,22.077,10.62,21.664,10.252z M16.425,13.558c-0.195,0.195-0.451,0.293-0.707,0.293   s-0.512-0.098-0.707-0.292l-1.095-1.094h-3.831l-1.095,1.094c-0.195,0.195-0.451,0.292-0.707,0.292s-0.512-0.098-0.707-0.293   c-0.391-0.391-0.391-1.024,0-1.415l0.678-0.677l-0.679-0.681c-0.39-0.391-0.389-1.024,0.002-1.414   C7.969,8.98,8.601,8.983,8.99,9.374l1.087,1.09h3.846l1.087-1.09c0.39-0.39,1.022-0.392,1.414-0.002   c0.391,0.39,0.392,1.023,0.002,1.414l-0.679,0.681l0.678,0.677C16.815,12.534,16.815,13.167,16.425,13.558z"
+                      />
+                      <path
+                        d="M12,16.929c-1.033,0-1.874,0.841-1.874,1.875V22h3.748v-3.197C13.874,17.77,13.033,16.929,12,16.929z"
+                      />
+                    </g>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Section Testimonials -->
+      <div class="section overflow-visible">
+        <div class="r-container">
+          <div class="row row-cols-xl-2 row-cols-1 gap-5">
+            <div class="col col-xl-4 mb-3">
+              <div
+                class="bg-accent-color-5 rounded-5 position-relative w-100 h-100"
+              >
+                <img
+                  class="img-fluid w-100 float-img testi"
+                  src="image/46.png"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="col col-xl-7 mb-3 position-relative">
+              <div class="d-flex flex-column gap-3">
+                <div
+                  class="d-flex flex-row gap-2 align-items-center scrollanimation animated fadeInUp adr-9 adl-3"
+                >
+                  <img src="image/paw.png" alt="" />
+                  <h6 class="m-0">Testimonials</h6>
+                </div>
+                <h3
+                  class="scrollanimation animated fadeInDown adr-9"
+                  style="width: 80%"
+                >
+                  Why Pet Owners Trust Us with Their Pet
+                </h3>
+                <p>
+                  With compassionate care, expert grooming, and a focus on your
+                  pet’s wellbeing, we provide the best for your fur babies every
+                  time they visit.
+                </p>
+                <div class="overflow-hidden">
+                  <div class="swiper swiperTestimonials">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                      <!-- Slides -->
+                      <div class="swiper-slide">
+                        <div
+                          class="card testimonial-container justify-content-center align-items-center position-relative"
+                        >
+                          <div class="d-flex flex-column gap-3">
+                            <i
+                              class="rtmicon rtmicon-blockquote position-absolute top-0 start-0"
+                              style="font-size: 64px"
+                            ></i>
+                            <p class="testimonial-text">
+                              “We can’t thank the veterinary team enough for the
+                              care they gave our dog, Charlie. After a tough
+                              surgery, they went above and beyond to ensure his
+                              recovery was smooth. Their follow-up care and
+                              support were outstanding!”
+                            </p>
+                            <div
+                              class="d-flex flex-row align-items-center justify-content-between"
+                            >
+                              <div
+                                class="d-flex flex-column gap-1 align-items-start"
+                              >
+                                <h5 class="m-0 text-black">Rachel Emily</h5>
+                                <p class="accent-color">Designation</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div
+                          class="card testimonial-container justify-content-center align-items-center position-relative"
+                        >
+                          <div class="d-flex flex-column gap-3">
+                            <i
+                              class="rtmicon rtmicon-blockquote position-absolute top-0 start-0"
+                              style="font-size: 64px"
+                            ></i>
+                            <p class="testimonial-text">
+                              “We can’t thank the veterinary team enough for the
+                              care they gave our dog, Charlie. After a tough
+                              surgery, they went above and beyond to ensure his
+                              recovery was smooth. Their follow-up care and
+                              support were outstanding!”
+                            </p>
+                            <div
+                              class="d-flex flex-row align-items-center justify-content-between"
+                            >
+                              <div
+                                class="d-flex flex-column gap-1 align-items-start"
+                              >
+                                <h5 class="m-0 text-black">Rachel Emily</h5>
+                                <p class="accent-color">Designation</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div
+                          class="card testimonial-container justify-content-center align-items-center position-relative"
+                        >
+                          <div class="d-flex flex-column gap-3">
+                            <i
+                              class="rtmicon rtmicon-blockquote position-absolute top-0 start-0"
+                              style="font-size: 64px"
+                            ></i>
+                            <p class="testimonial-text">
+                              “We can’t thank the veterinary team enough for the
+                              care they gave our dog, Charlie. After a tough
+                              surgery, they went above and beyond to ensure his
+                              recovery was smooth. Their follow-up care and
+                              support were outstanding!”
+                            </p>
+                            <div
+                              class="d-flex flex-row align-items-center justify-content-between"
+                            >
+                              <div
+                                class="d-flex flex-column gap-1 align-items-start"
+                              >
+                                <h5 class="m-0 text-black">Rachel Emily</h5>
+                                <p class="accent-color">Designation</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="d-flex flex-column align-items-end justify-content-center gap-1 rounded-pill position-relative scrollanimation animated fadeInUp adr-9 adl-3"
+                style="margin-top: -11rem; z-index: 2"
+              >
+                <div class="d-flex flex-row gap-2 align-items-center">
+                  <div class="position-relative">
+                    <div class="d-flex flex-row customer-container">
+                      <div class="customer-item">
+                        <img src="image/22.jpg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="customer-item">
+                        <img src="image/27.jpg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="customer-item">
+                        <img src="image/16.jpg" class="img-fluid" alt="" />
+                      </div>
+                    </div>
+                  </div>
+                  <h4 class="m-0">98%</h4>
+                </div>
+                <span class="accent-color-3" style="font-size: 18px"
+                  >Happy Client</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Section Marquee -->
+      <div class="section p-0">
+        <div
+          class="d-flex flex-column gap-3 text-center align-items-center justify-content-center mx-auto position-relative accent-primary"
+        >
+          <div class="marquee-container bg-accent-color-4">
+            <div class="marquee-content green-neon">
+              <div
+                class="marquee-item-2 py-2 d-flex align-items-center justify-content-center"
+              >
+                <h3 class="m-0">Hear From Our Happy Pet Owners.</h3>
+              </div>
+              <div class="marquee-item-2 py-2 d-flex align-items-center">
+                <img
+                  src="image/star-of-life-black.png"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+              <div
+                class="marquee-item-2 py-2 d-flex align-items-center justify-content-center"
+              >
+                <h3 class="m-0">
+                  Trust Us to Keep Your Pets Healthy and Happy.
+                </h3>
+              </div>
+              <div class="marquee-item-2 py-2 d-flex align-items-center">
+                <img
+                  src="image/star-of-life-black.png"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+              <div
+                class="marquee-item-2 py-2 d-flex align-items-center justify-content-center"
+              >
+                <h3 class="m-0">Appreciate About Our Personalized Care.</h3>
+              </div>
+              <div class="marquee-item-2 py-2 d-flex align-items-center">
+                <img
+                  src="image/star-of-life-black.png"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Section News and Blog -->
+      <div class="section">
+        <div class="r-container">
+          <div class="row row-cols-xl-3 row-cols-1">
+            <div class="col col-xl-3 mb-3">
+              <div class="d-flex flex-column gap-3 justify-content-center">
+                <div
+                  class="d-flex flex-row gap-2 align-items-center scrollanimation animated fadeInUp adr-9 adl-3"
+                >
+                  <img src="image/paw.png" alt="" />
+                  <h6 class="m-0">News and Blog</h6>
+                </div>
+                <h3
+                  class="scrollanimation animated fadeInDown adr-9"
+                  style="width: 60%"
+                >
+                  Get New Information From Us
+                </h3>
+                <p style="width: 60%">
+                  Our blog is your go-to resource for keeping your furry friends
+                  happy, healthy, and looking their best.
+                </p>
+              </div>
+            </div>
+            <div class="col col-xl-4 mb-3">
+              <div class="position-relative h-100">
+                <img
+                  class="img-fluid rounded-5"
+                  src="image/40.jpg"
+                  alt=""
+                  style="aspect-ratio: 1/1"
+                />
+                <div
+                  class="w-max-content position-absolute bottom-0 end-0 bg-accent-primary"
+                  style="
+                    border: 15px solid var(--primary);
+                    border-top-left-radius: 30px;
+                  "
+                >
+                  <a
+                    class="btn btn-accent rounded-pill d-flex flex-row gap-3 scrollanimation animated fadeInUp adr-9 adl-7"
+                    href="contact-us.html"
+                  >
+                    <span>View All</span>
+                    <i
+                      class="rtmicon rtmicon-chevron-right rounded-circle bg-white p-2 fw-bold accent-color"
+                    ></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col col-xl-4 mb-3">
+              <div class="d-flex flex-column gap-3">
+                <div
+                  class="d-flex flex-row gap-5 align-items-start justify-content-between scrollanimation animated fadeInUp adr-9 adl-4"
+                >
+                  <h5 style="width: 70%">
+                    Choosing the Right Food for Your Pet’s Needs
+                  </h5>
+                  <div class="icon-box-4">
+                    <i class="rtmicon rtmicon-chevron-right"></i>
+                  </div>
+                </div>
+                <p class="border-bottom border-1 border-accent pb-3 m-0">
+                  Get tips on choosing the right food to meet your pet’s dietary
+                  needs.
+                </p>
+                <div
+                  class="d-flex flex-row gap-5 align-items-start justify-content-between scrollanimation animated fadeInUp adr-9 adl-5"
+                >
+                  <h5>How Often Should You Groom Your Pet? A Complete Guide</h5>
+                  <div class="icon-box-4">
+                    <i
+                      class="rtmicon rtmicon-chevron-right accent-color-primary"
+                    ></i>
+                  </div>
+                </div>
+                <p class="border-bottom border-1 border-accent pb-3 m-0">
+                  Discover the ideal grooming routine for different pet breeds
+                </p>
+                <div
+                  class="d-flex flex-row gap-5 align-items-start justify-content-between scrollanimation animated fadeInUp adr-9 adl-6"
+                >
+                  <h5>What to Expect During Your Pet’s Annual Check-Up</h5>
+                  <div class="icon-box-4">
+                    <i
+                      class="rtmicon rtmicon-chevron-right accent-color-primary"
+                    ></i>
+                  </div>
+                </div>
+                <p class="border-bottom border-1 border-accent pb-3 m-0">
+                  Get the inside scoop on what happens during a vet check-up and
+                  why it’s crucial for your pet’s health.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
     <!-- End Main -->
 
     <!-- Footer -->
-    <div class="section bg-accent-color-2 position-relative">
-        <div class="r-container bg-attach-cover d-flex flex-column gap-3"
-            style="background-image: url(image/bg-footer.png)">
-            <div class="d-flex flex-xl-row flex-column gap-3 justify-content-between align-items-center"
-                style="margin-bottom: 90px">
-                <h1 style="max-width: 60%;">Keeping Your Pets Healthy, Happy, and Groomed</h1>
-                <div class="align-self-xl-start align-items-center">
-                    <img class="img-fluid" src="image/Logo.png" width="200" alt="" />
-                </div>
-            </div>
-            <div class="row row-cols-xl-2 row-cols-1">
-                <div class="col col-xl-4 mb-3"></div>
-                <div class="col col-xl-8 mb-3">
-                    <div class="d-flex flex-column gap-5">
-                        <div
-                            class="d-flex flex-row justify-content-xl-start justify-content-center gap-5 ms-lg-5 m-xl-0 m-0">
-                            <div
-                                class="d-flex flex-lg-row flex-column align-items-start w-25 justify-content-lg-between gap-5">
-                                <div class="d-flex flex-column gap-2">
-                                    <a class="link" href="index.html">Home</a>
-                                    <a class="link" href="about-us.html">About</a>
-                                    <a class="link" href="services.html">Services</a>
-                                    <a class="link" href="contact-us.html">Contact Us</a>
-                                </div>
-                                <div class="d-flex flex-column gap-2">
-                                    <a class="link" href="faqs.html">FAQs</a>
-                                    <a class="link" href="gallery.html">Gallery</a>
-                                    <a class="link">Articles</a>
-                                </div>
-                            </div>
-                            <div
-                                class="d-flex flex-lg-row flex-column align-items-start w-75 justify-content-lg-evenly gap-5">
-                                <div class="d-flex flex-column gap-3">
-                                    <h5>Contact Us</h5>
-                                    <div class="d-flex flex-row gap-2 align-items-center">
-                                        <i class="rtmicon rtmicon-classic-phone"></i>
-                                        <span>0761-8523-398</span>
-                                    </div>
-                                    <div class="d-flex flex-row gap-2 align-items-center">
-                                        <i class="rtmicon rtmicon-globe"></i>
-                                        <span>www.hellodomainsite.com</span>
-                                    </div>
-                                </div>
-                                <div class="d-flex flex-column gap-3">
-                                    <h5>Address</h5>
-                                    <div class="d-flex flex-row gap-2 align-items-center">
-                                        <i class="rtmicon rtmicon-location align-self-start"></i>
-                                        <span> KLLG St, No.99, <br />Pku City, ID 28289 </span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="d-flex flex-column gap-3">
-                            <div class="toast-container position-fixed bottom-0 end-0 p-3">
-                                <div id="liveToast"
-                                    class="toast success_msg_subscribe bg-dark-transparent accent-color-primary"
-                                    role="alert" aria-live="assertive" aria-atomic="true">
-                                    <div class="d-flex">
-                                        <div class="toast-body">
-                                            Your Subscribe Send Successfully!.
-                                        </div>
-                                        <button type="button" class="btn me-2 m-auto accent-color-primary"
-                                            data-bs-dismiss="toast" aria-label="Close">
-                                            <i class="fa-solid fa-xmark"></i>
-                                        </button>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="d-flex flex-column align-items-xl-start align-items-center">
-                                <h5>Subscribe Newsletter</h5>
-                                <form
-                                    class="d-flex flex-column h-100 justify-content-center w-100 needs-validation form"
-                                    novalidate>
-                                    <input type="text" name="action" value="subscribe" hidden />
-                                    <div class="input-group mb-xl-2 mb-0 position-relative">
-                                        <input type="email"
-                                            class="form-control rounded-start-pill rounded-end-0 mb-xl-0 mb-3"
-                                            placeholder="Your Email" name="email" required />
-                                        <button
-                                            class="btn btn-accent d-flex flex-row gap-2 align-items-center submit_subscribe rounded-end-pill rounded-start-0 gap-2 position-relative"
-                                            style="z-index: 2" type="submit">
-                                            <span>Send Message</span>
-                                            <i
-                                                class="rtmicon rtmicon-chevron-right icon-box-5 bg-white accent-color fw-bold p-2"></i>
-                                        </button>
-                                        <div class="invalid-feedback accent-color-primary">
-                                            Please provide a valid email format (e.g.,
-                                            user@example.com).
-                                        </div>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <footer class="section bg-accent-color-2 position-relative">
+      <div
+        class="r-container bg-attach-cover d-flex flex-column gap-3"
+        style="background-image: url(image/bg-footer.png)"
+      >
+        <div
+          class="d-flex flex-xl-row flex-column gap-3 justify-content-between align-items-center"
+          style="margin-bottom: 90px"
+        >
+          <h1 style="max-width: 60%">
+            Keeping Your Pets Healthy, Happy, and Groomed
+          </h1>
+          <div class="align-self-xl-start align-items-center">
+            <img class="img-fluid" src="image/Logo.png" width="200" alt="" />
+          </div>
         </div>
-    </div>
+        <div class="row row-cols-xl-2 row-cols-1">
+          <div class="col col-xl-4 mb-3"></div>
+          <div class="col col-xl-8 mb-3">
+            <div class="d-flex flex-column gap-5">
+              <div
+                class="d-flex flex-row justify-content-xl-start justify-content-center gap-5 ms-lg-5 m-xl-0 m-0"
+              >
+                <div
+                  class="d-flex flex-lg-row flex-column align-items-start w-25 justify-content-lg-between gap-5"
+                >
+                  <div class="d-flex flex-column gap-2">
+                    <a class="link" href="index.html">Home</a>
+                    <a class="link" href="about-us.html">About</a>
+                    <a class="link" href="services.html">Services</a>
+                    <a class="link" href="contact-us.html">Contact Us</a>
+                  </div>
+                  <div class="d-flex flex-column gap-2">
+                    <a class="link" href="faqs.html">FAQs</a>
+                    <a class="link" href="gallery.html">Gallery</a>
+                    <a class="link">Articles</a>
+                  </div>
+                </div>
+                <div
+                  class="d-flex flex-lg-row flex-column align-items-start w-75 justify-content-lg-evenly gap-5"
+                >
+                  <div class="d-flex flex-column gap-3">
+                    <h5>Contact Us</h5>
+                    <div class="d-flex flex-row gap-2 align-items-center">
+                      <i class="rtmicon rtmicon-classic-phone"></i>
+                      <span>0761-8523-398</span>
+                    </div>
+                    <div class="d-flex flex-row gap-2 align-items-center">
+                      <i class="rtmicon rtmicon-globe"></i>
+                      <span>www.hellodomainsite.com</span>
+                    </div>
+                  </div>
+                  <div class="d-flex flex-column gap-3">
+                    <h5>Address</h5>
+                    <div class="d-flex flex-row gap-2 align-items-center">
+                      <i class="rtmicon rtmicon-location align-self-start"></i>
+                      <span> KLLG St, No.99, <br />Pku City, ID 28289 </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="d-flex flex-column gap-3">
+                <div class="toast-container position-fixed bottom-0 end-0 p-3">
+                  <div
+                    id="liveToast"
+                    class="toast success_msg_subscribe bg-dark-transparent accent-color-primary"
+                    role="alert"
+                    aria-live="assertive"
+                    aria-atomic="true"
+                  >
+                    <div class="d-flex">
+                      <div class="toast-body">
+                        Your Subscribe Send Successfully!.
+                      </div>
+                      <button
+                        type="button"
+                        class="btn me-2 m-auto accent-color-primary"
+                        data-bs-dismiss="toast"
+                        aria-label="Close"
+                      >
+                        <i class="fa-solid fa-xmark"></i>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="d-flex flex-column align-items-xl-start align-items-center"
+                >
+                  <h5>Subscribe Newsletter</h5>
+                  <form
+                    class="d-flex flex-column h-100 justify-content-center w-100 needs-validation form"
+                    novalidate
+                  >
+                    <input type="text" name="action" value="subscribe" hidden />
+                    <div class="input-group mb-xl-2 mb-0 position-relative">
+                      <input
+                        type="email"
+                        class="form-control rounded-start-pill rounded-end-0 mb-xl-0 mb-3"
+                        placeholder="Your Email"
+                        name="email"
+                        required
+                      />
+                      <button
+                        class="btn btn-accent d-flex flex-row gap-2 align-items-center submit_subscribe rounded-end-pill rounded-start-0 gap-2 position-relative"
+                        style="z-index: 2"
+                        type="submit"
+                      >
+                        <span>Send Message</span>
+                        <i
+                          class="rtmicon rtmicon-chevron-right icon-box-5 bg-white accent-color fw-bold p-2"
+                        ></i>
+                      </button>
+                      <div class="invalid-feedback accent-color-primary">
+                        Please provide a valid email format (e.g.,
+                        user@example.com).
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
     <div class="bg-accent-secondary position-relative">
-        <div class="r-container p-3">
-            <img class="position-absolute img-fluid start-0 bottom-0 floating-image-2" src="image/dummy-img-500x600.jpg"
-                alt="" style="width: 487px; height: 560px" />
-            <div class="row row-cols-xl-2 row-cols-1">
-                <div class="col col-xl-2 mb-3"></div>
-                <div class="col col-xl-6 mb-3">
-                    <p class="accent-color-primary m-0 text-xl-center text-center">
-                        Copyright © 2025 Rometheme. All Rights Reserved.
-                    </p>
-                </div>
-                <div class="col col-xl-4">
-                    <div class="social-container w-100 justify-content-xl-end justify-content-center">
-                        <a href="https://www.facebook.com" class="social-item white">
-                            <i class="fa-brands fa-facebook"></i>
-                        </a>
-                        <a href="https://www.instagram.com" class="social-item white">
-                            <i class="fa-brands fa-xs fa-instagram"></i>
-                        </a>
-                        <a href="https://www.twitter.com" class="social-item white">
-                            <i class="fa-brands fa-xs fa-twitter"></i>
-                        </a>
-                        <a href="https://www.youtube.com" class="social-item white">
-                            <i class="fa-brands fa-xs fa-youtube"></i>
-                        </a>
-                    </div>
-                </div>
+      <div class="r-container p-3">
+        <img
+          class="position-absolute img-fluid start-0 bottom-0 floating-image-2"
+          src="image/47.png"
+          alt=""
+          style="width: 487px; height: 560px"
+        />
+        <div class="row row-cols-xl-2 row-cols-1">
+          <div class="col col-xl-2 mb-3"></div>
+          <div class="col col-xl-6 mb-3">
+            <p class="accent-color-primary m-0 text-xl-center text-center">
+              Copyright © 2025 Rometheme. All Rights Reserved.
+            </p>
+          </div>
+          <div class="col col-xl-4">
+            <div
+              class="social-container w-100 justify-content-xl-end justify-content-center"
+            >
+              <a href="https://www.facebook.com" class="social-item white">
+                <i class="fa-brands fa-facebook"></i>
+              </a>
+              <a href="https://www.instagram.com" class="social-item white">
+                <i class="fa-brands fa-xs fa-instagram"></i>
+              </a>
+              <a href="https://www.twitter.com" class="social-item white">
+                <i class="fa-brands fa-xs fa-twitter"></i>
+              </a>
+              <a href="https://www.youtube.com" class="social-item white">
+                <i class="fa-brands fa-xs fa-youtube"></i>
+              </a>
             </div>
+          </div>
         </div>
+      </div>
     </div>
     <!-- End Footer -->
 
@@ -963,10 +1848,11 @@
     <script src="js/submit-form.js"></script>
     <script src="js/vendor/isotope.pkgd.min.js"></script>
     <script src="js/video_embedded.js"></script>
-    <script src="https://kit.fontawesome.com/a6df7668b8.js" crossorigin="anonymous"></script>
-    <script src=" js/vendor/fslightbox.js"></script>
     <script
-        src="https://cdn.jsdelivr.net/gh/shishirraven/animate-on-scroll@v1.0/oyethemes_onscroll_animation.js"></script>
-</body>
-
+      src="https://kit.fontawesome.com/a6df7668b8.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src=" js/vendor/fslightbox.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/shishirraven/animate-on-scroll@v1.0/oyethemes_onscroll_animation.js"></script>
+  </body>
 </html>
